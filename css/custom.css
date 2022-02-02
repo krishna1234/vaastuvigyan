@@ -40,3 +40,18 @@ a {
     font-weight: bold;
     border-bottom: 2px solid #0088cc;
 }
+
+/* google maps */
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 200px !important;
+    width: 300px !important;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 200px !important;
+    width: 300px !important;
+}
