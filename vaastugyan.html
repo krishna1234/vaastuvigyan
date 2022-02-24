@@ -3,488 +3,595 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Vaastu Vigyan</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>Woody - Carpenter Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- top bar -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7"><span class="icon-phone"></span>&nbsp;Questions? &nbsp;Call us: <strong>+91
-                        9591405555</strong> <i class="fas fa-envelope"></i> Mail:
-                    <strong>consult@vaastuvigyan.com</strong>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-envelope text-primary me-2"></small>
+                    <small>consult@vaastuvigyan.com</small>
                 </div>
-                <div class="col-md-5 float-right">
-                    <a href="about.html" class="text-white">About us</a> |
-                    <a href="testimonial.html" class="text-white">Testimonials</a> |
-                    <a href="index.html" class="text-white">Blog</a> |
-                    <a href="contact.html" class="text-white">Contact us</a>
-                    <span class="d-inline-block pl-5"><a href="https://www.facebook.com/raajVastuVigyan/?fref=ts"
-                            target="_blank"><i class="fab fa-facebook"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://twitter.com/vvigyan" target="_blank"><i
-                                class="fab fa-twitter"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://www.youtube.com/watch?v=90AjIWUSId4"
-                            target="_blank"><i class="fab fa-youtube"></i></a></span>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div> -->
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 9591405555</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.facebook.com/raajVastuVigyan/?fref=ts"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/vvigyan"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.youtube.com/watch?v=90AjIWUSId4"><i class="fab fa-youtube"></i></a>
+                    <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="images/logo.jpeg" class="img-fluid"
-                    style="height: 60px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastutips.html">Vaastu Tips</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link active" href="vaastugyan.html">Vaastu Gyan</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="benefits.html">Benefits</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="consultation.html">Consultation</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="navratans.html">Nav Ratans</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="geopathicstress.html">Geopathic
-                            Strss</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="dowsing.html">Dowsing</a> </li>
-                </ul>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.jpeg" class="img-fluid" style="height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="vaastutips.html" class="nav-item nav-link">Vaastu Tips</a>
+                <a href="vaastugyan.html" class="nav-item nav-link active">Vaastu Gyan</a>
+                <a href="benefits.html" class="nav-item nav-link">Benefits</a>
+                <a href="consultation.html" class="nav-item nav-link">Consultation</a>
+                <a href="navratans.html" class="nav-item nav-link">Nav Ratans</a>
+                <a href="geopathicstress.html" class="nav-item nav-link">Geopathic Stress</a>
+                <a href="dowsing.html" class="nav-item nav-link">Dowsing</a>
             </div>
+            <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
-    <!-- Header -->
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-3 col-xs-12 mb-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                        aria-selected="true">Vaastu Gyan</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">General Tips Part-1</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                        aria-selected="false">General Tips Part-2</button>
-                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                        aria-selected="false">Tips for Office/Business</button>
-                    <button class="nav-link" id="v-pills-settings-tab1" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
-                        aria-selected="false">Achieve Peace in Life</button>
-                    <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
-                        aria-selected="false">Colors in Vaastu</button>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-vaastugyan py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Vaastu Gyan</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Vaastu Gyan</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xs-12 mb-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link bg-primary mb-2 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Vaastu Gyan</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">General Tips Part-1</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">General Tips Part-2</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Tips for Office/Business</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab1" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
+                            aria-selected="false">Achieve Peace in Life</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab2" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
+                            aria-selected="false">Colors in Vaastu</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-9 col-xs-12">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu Vigyan In A Nutshell</h4>
-                                    <p class="card-text">
-                                        Vaastu Vigyan is actually the science which bears the ethics of planning,
-                                        architecture and creation. It involves various elements which are highly
-                                        desirable for the construction and maintenance of a happy and enjoyable balance
-                                        between nature and man. It provides an ambient setting for man where he can
-                                        aptly enjoy his work with his colleagues. It captivates the benefits of the
-                                        natural elements and incorporates it aptly in our lives in order to help us
-                                        enjoy enhanced benefits from life and work. It brings about joy, euphoria and
-                                        harmony. The word Vaastu refers to the biological environment around us or any
-                                        other thing that exists around our lives. These things or elements include our
-                                        house, shelter and various other elements which depict the system of planning
-                                        appropriately. Since the ancient times Vaastu Vigyan has been considered to be a
-                                        vital aspect which is highly essential for town planning and architecture. Due
-                                        to this reason this Vigyan is also known as the science of the directions f
-                                        nature which incorporates all the five elements of nature. These include Earth,
-                                        Air, Water, Fire and space. These elements are compiled to form the
-                                        panchbhootas. It is strongly believed that the 9 planets are so placed due to
-                                        the position and presence of the panchbhootas.
-                                    </p>
-                                    <p class="card-text">
-                                        Many individuals strongly believe that these panchbhootas comprise our world as
-                                        a whole. Let us now read more about the elements of the <b>panchbhootas</b>.
-                                        Glace through, to know better.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Earth: </b>
-                                        <br />
-                                        The earth is also called the bhoomi and it enhances and extends is field having
-                                        magnetic attraction and force affecting the biotic and a biotic elements of the
-                                        earth. From the land structure, to the landform to the flora and the fauna; the
-                                        earth is the supreme creator of all these sub elements. In fact, earth itself
-                                        provides the raw materials for the elements which are used for construction.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Water: </b>
-                                        <br />
-                                        Water which is also known as jal is said to be another vital element of the
-                                        panchbhootas. The river, rain and water bodies symbolize water. The water might
-                                        be in any form. It can be solid, liquid or gaseous form simultaneously. The
-                                        water forms a vital form of all plants and animals hence it is absolutely vital
-                                        in our lives. Physical life exists only in the area which has proper sources of
-                                        water. History depicts that the major civilizations of the world grew up near
-                                        the banks of the river. Hence, water symbolizes life. In fact, our lives are
-                                        indispensable without water and all the cities and villages in the world sustain
-                                        due to the presence of water.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Air: </b>
-                                        <br />
-                                        Air is the most powerful element of our lives which deals with our health and
-                                        our physical bodies. Air or vaayu provides us with the facilities to respire.
-                                        The oxygen present in the air is highly essential for respiring. Apart from
-                                        oxygen, nitrogen, carbon-di-oxide and various other inert gases like argon,
-                                        krypton, helium, and neon are also present in the air in varying proportions.
-                                        Dust particles are also present in the air in specific amounts. Pure air
-                                        containing oxygen is highly essential for our brains and also for respiration.
-                                        The physical comfort of the human beings is highly dependent on the air,
-                                        humidity and the amount of temperature in the air.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Fire: </b>
-                                        <br />
-                                        Fire is also referred as Agni and it symbolizes power and warmth. It also
-                                        symbolizes the light and luminosity which are required in every man’s life.
-                                        Passion, nights and days, different seasons, high energy, enthusiasm all are
-                                        represented with the help of fire. Without the presence of fire these sub
-                                        elements fail to exist. Sun is the main and most vital source of fire which
-                                        symbolizes our mental energy and plays a significant role in developing the
-                                        various visual qualities in from of passion, vigor and enthusiasm.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Space: </b>
-                                        <br />
-                                        The space is also called the Akaash. The earth, air, water and fire all are
-                                        responsible for an enjoyable and comfortable space for the inhabitants of this
-                                        world. The world is pleasant, vibrant and very much comfortable to live in due
-                                        to the presence of these elements. Space cannot be limited to a minor textual
-                                        definition. It is a vast term and it is not only composed of the entire galaxy
-                                        but also the forces associated with the galaxy which include heat, light,
-                                        magnetic forces and gravitational forces that revolve around our lives. These
-                                        elements are found in abundance thereby creating an indispensable and
-                                        significant relation of these elements with an individual’s home or office
-                                        corner.
-                                    </p>
-
-                                    <p class="card-text">
-                                        Vaastu Vigyan emphasizes the construction of buildings and apartments which are
-                                        totally in sync with the five elements of nature or the panch bhootas. According
-                                        to Vaastu, if you follow and plan owing to the Vaastu Vigyan, the panch bhootas
-                                        and the 8 directions, then you are sure to enjoy success and prosperity.
-                                    </p>
-
-                                    <p class="card-text">
-                                        <b>North:</b> North is the direction of kuber and it represents wealth and
-                                        monetary gains.
-                                        <br />
-                                        <b>North-East :</b> North-East is the direction Ishwar and it grants you wisdom,
-                                        knowledge and relief from all major and minor sufferings.
-                                        <br />
-                                        <b>East- East :</b> East- East is the direction of Indra who offers you monetary
-                                        advantages and pleasures.
-                                        <br />
-                                        <b>South-East :</b> South-East is the direction of Agni who offers you
-                                        enthusiasm, zeal, energy and passion in your life.
-                                        <br />
-                                        <b>South :</b> South is the zone of Yama which eradicates all evil elements and
-                                        bestows your life with happiness.
-                                        <br />
-                                        <b>South-West :</b> South-West represents the Niruti who is the god of demon. He
-                                        grants you purity coupled with cleanliness. He also helps you sustain the fear
-                                        of various enemies.
-                                        <br />
-                                        <b>West :</b> West is the direction of Varun who offers you prosperity and
-                                        numerous pleasures and luxuries in your life.
-                                        <br />
-                                        <b>North-West :</b> The northwestern direction represents Vayu who is the God of
-                                        wind and who grants you a strong and commendable life which is happy, prosperous
-                                        and long lasting.
-                                        <br />
-                                    </p>
-                                    <p class="card-text">
-                                        Follow these Vaastu tips in your lives to enjoy lucrative results along with
-                                        ample happiness. Also try to incorporate the elements of Vaastu in your daily
-                                        lives in order to enhance your opportunities and live a better and enjoyable
-                                        life. These guidelines will aptly help you to prosper throughout the length and
-                                        breadth of your life. Also, try to get rid of your Vaastu doshas by the
-                                        mentioned prescribed methods as it is absolutely necessary to get rid of the
-                                        Vaastu doshas to enjoy the full on benefits from Vaastu Vigyan.
-                                        <br />
+                <div class="col-lg-9 col-xs-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu Vigyan In A Nutshell</h4>
+                                        <p class="card-text">
+                                            Vaastu Vigyan is actually the science which bears the ethics of planning,
+                                            architecture and creation. It involves various elements which are highly
+                                            desirable for the construction and maintenance of a happy and enjoyable balance
+                                            between nature and man. It provides an ambient setting for man where he can
+                                            aptly enjoy his work with his colleagues. It captivates the benefits of the
+                                            natural elements and incorporates it aptly in our lives in order to help us
+                                            enjoy enhanced benefits from life and work. It brings about joy, euphoria and
+                                            harmony. The word Vaastu refers to the biological environment around us or any
+                                            other thing that exists around our lives. These things or elements include our
+                                            house, shelter and various other elements which depict the system of planning
+                                            appropriately. Since the ancient times Vaastu Vigyan has been considered to be a
+                                            vital aspect which is highly essential for town planning and architecture. Due
+                                            to this reason this Vigyan is also known as the science of the directions f
+                                            nature which incorporates all the five elements of nature. These include Earth,
+                                            Air, Water, Fire and space. These elements are compiled to form the
+                                            panchbhootas. It is strongly believed that the 9 planets are so placed due to
+                                            the position and presence of the panchbhootas.
+                                        </p>
+                                        <p class="card-text">
+                                            Many individuals strongly believe that these panchbhootas comprise our world as
+                                            a whole. Let us now read more about the elements of the <b>panchbhootas</b>.
+                                            Glace through, to know better.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Earth: </b>
+                                            <br />
+                                            The earth is also called the bhoomi and it enhances and extends is field having
+                                            magnetic attraction and force affecting the biotic and a biotic elements of the
+                                            earth. From the land structure, to the landform to the flora and the fauna; the
+                                            earth is the supreme creator of all these sub elements. In fact, earth itself
+                                            provides the raw materials for the elements which are used for construction.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Water: </b>
+                                            <br />
+                                            Water which is also known as jal is said to be another vital element of the
+                                            panchbhootas. The river, rain and water bodies symbolize water. The water might
+                                            be in any form. It can be solid, liquid or gaseous form simultaneously. The
+                                            water forms a vital form of all plants and animals hence it is absolutely vital
+                                            in our lives. Physical life exists only in the area which has proper sources of
+                                            water. History depicts that the major civilizations of the world grew up near
+                                            the banks of the river. Hence, water symbolizes life. In fact, our lives are
+                                            indispensable without water and all the cities and villages in the world sustain
+                                            due to the presence of water.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Air: </b>
+                                            <br />
+                                            Air is the most powerful element of our lives which deals with our health and
+                                            our physical bodies. Air or vaayu provides us with the facilities to respire.
+                                            The oxygen present in the air is highly essential for respiring. Apart from
+                                            oxygen, nitrogen, carbon-di-oxide and various other inert gases like argon,
+                                            krypton, helium, and neon are also present in the air in varying proportions.
+                                            Dust particles are also present in the air in specific amounts. Pure air
+                                            containing oxygen is highly essential for our brains and also for respiration.
+                                            The physical comfort of the human beings is highly dependent on the air,
+                                            humidity and the amount of temperature in the air.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Fire: </b>
+                                            <br />
+                                            Fire is also referred as Agni and it symbolizes power and warmth. It also
+                                            symbolizes the light and luminosity which are required in every man’s life.
+                                            Passion, nights and days, different seasons, high energy, enthusiasm all are
+                                            represented with the help of fire. Without the presence of fire these sub
+                                            elements fail to exist. Sun is the main and most vital source of fire which
+                                            symbolizes our mental energy and plays a significant role in developing the
+                                            various visual qualities in from of passion, vigor and enthusiasm.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Space: </b>
+                                            <br />
+                                            The space is also called the Akaash. The earth, air, water and fire all are
+                                            responsible for an enjoyable and comfortable space for the inhabitants of this
+                                            world. The world is pleasant, vibrant and very much comfortable to live in due
+                                            to the presence of these elements. Space cannot be limited to a minor textual
+                                            definition. It is a vast term and it is not only composed of the entire galaxy
+                                            but also the forces associated with the galaxy which include heat, light,
+                                            magnetic forces and gravitational forces that revolve around our lives. These
+                                            elements are found in abundance thereby creating an indispensable and
+                                            significant relation of these elements with an individual’s home or office
+                                            corner.
+                                        </p>
+    
+                                        <p class="card-text">
+                                            Vaastu Vigyan emphasizes the construction of buildings and apartments which are
+                                            totally in sync with the five elements of nature or the panch bhootas. According
+                                            to Vaastu, if you follow and plan owing to the Vaastu Vigyan, the panch bhootas
+                                            and the 8 directions, then you are sure to enjoy success and prosperity.
+                                        </p>
+    
+                                        <p class="card-text">
+                                            <b>North:</b> North is the direction of kuber and it represents wealth and
+                                            monetary gains.
+                                            <br />
+                                            <b>North-East :</b> North-East is the direction Ishwar and it grants you wisdom,
+                                            knowledge and relief from all major and minor sufferings.
+                                            <br />
+                                            <b>East- East :</b> East- East is the direction of Indra who offers you monetary
+                                            advantages and pleasures.
+                                            <br />
+                                            <b>South-East :</b> South-East is the direction of Agni who offers you
+                                            enthusiasm, zeal, energy and passion in your life.
+                                            <br />
+                                            <b>South :</b> South is the zone of Yama which eradicates all evil elements and
+                                            bestows your life with happiness.
+                                            <br />
+                                            <b>South-West :</b> South-West represents the Niruti who is the god of demon. He
+                                            grants you purity coupled with cleanliness. He also helps you sustain the fear
+                                            of various enemies.
+                                            <br />
+                                            <b>West :</b> West is the direction of Varun who offers you prosperity and
+                                            numerous pleasures and luxuries in your life.
+                                            <br />
+                                            <b>North-West :</b> The northwestern direction represents Vayu who is the God of
+                                            wind and who grants you a strong and commendable life which is happy, prosperous
+                                            and long lasting.
+                                            <br />
+                                        </p>
+                                        <p class="card-text">
+                                            Follow these Vaastu tips in your lives to enjoy lucrative results along with
+                                            ample happiness. Also try to incorporate the elements of Vaastu in your daily
+                                            lives in order to enhance your opportunities and live a better and enjoyable
+                                            life. These guidelines will aptly help you to prosper throughout the length and
+                                            breadth of your life. Also, try to get rid of your Vaastu doshas by the
+                                            mentioned prescribed methods as it is absolutely necessary to get rid of the
+                                            Vaastu doshas to enjoy the full on benefits from Vaastu Vigyan.
+                                            <br />
+                                            <br />
+                                            <b>By Sri Kamal</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">General Tips Part-1</h4>
+                                        <p class="card-text">Very often, even a planned plot or construction can lead to
+                                            relevant problems for the individuals dwelling in the cities because of the
+                                            discrepancies in the shape, size, structure and level of the area in and around
+                                            the plot. However, you can easily evade these problems by simply following
+                                            certain Vastu guidelines in order to dwell prosperously according to the law of
+                                            health, wealth and holistic prosperity. It is even more advisable to consult a
+                                            Vastu expert; however these guidelines will suffice all your needs by providing
+                                            you with ample and effective tips regarding Vastu. Read along, to garner a
+                                            better idea about the subject and transform your destiny for good.</p>
+    
+                                        <h5>These Guidelines Will Competently Help You To Improve Your Destiny</h5>
+                                        <ul>
+                                            <li>Make sure that there are three doorways (to the maximum) in a straight line.
+                                                This is because; an un-appropriate position near your entrance can cause the
+                                                deceleration of your level of prosperity to a considerable level.</li>
+                                            <li>Ensure that the doors constructed, face either the south/southwest/west
+                                                directions.</li>
+                                            <li>The rooms, especially the rooms like drawing rooms should face the
+                                                North/East direction.</li>
+                                            <li>Always keep the North, North-East, East and the ‘Bramha-sthan’ proper, well
+                                                maintained and without any heavy loads. On the contrary, try to keep the
+                                                South, South-west and Western side of the room comparatively heavy.</li>
+                                            <li>Ensure that your balconies, windows and the verandahs are
+                                                North/North-east/East facing.</li>
+                                            <li>The pillars present should be equal and even in their numbers and they
+                                                shouldn’t be place near the Bramha-Sthan.</li>
+                                            <li>Try to create an entrance gate which is larger than every other internal
+                                                gate of your home/office/apartment. Entrance gate can be created in all
+                                                other directions except the South-West one.</li>
+                                            <li>Do not incorporate bonsai, milk producing plants, plants with rubber or
+                                                cactus in your home, for avoiding serious ailments, relevant problems and
+                                                tension in the long run.</li>
+                                            <li>Under any and every circumstance, do not keep dysfunctional devices in your
+                                                homes like a dysfunctional watch, pen, telephone, mobile phone,
+                                                mixer-grinder, radio, improper ball point pens and cassettes in your homes.
+                                                These dysfunctional items can cause the presence of negative energy in your
+                                                homes thereby reducing and decreasing the level of prosperity and harmony.
+                                            </li>
+                                            <li>Try not to accept money in the middle of your two fingers, as it is believed
+                                                that this process can decrease the further advent of wealth. Always try to
+                                                accept or take the money using your five fingers.</li>
+                                        </ul>
+                                        <b>By Sri Kamal</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">General Vaastu Gyan (Part- 2)</h4>
+                                        <ul>
+                                            <li>Thoroughly check the sound coming from your door-bell. An irritating or
+                                                displeasing sound can ruin the mood of the members of your family, thereby
+                                                vexing them. Again, a dull sound aptly decreases and affects the energy
+                                                level of your home. Make sure that the sound of the door bell is pleasing
+                                                and soothing, simultaneously.</li>
+                                            <li>A broken tile, floor or even marbles can be the main and a significant cause
+                                                for improper and broken relationships between the members of your family.
+                                                Try to cover the broken part with a cloth or a carpet of relevant sort in
+                                                order to procure an immediate solution to your problem.</li>
+                                            <li>Any electric pole or even a tree before your entrance gate or any of the
+                                                windows can cause serious and improper health for your family members.
+                                                Incorporate a convex mirror on the external wall in the direction of the
+                                                telephone pole or tree in order to save your family from bad omens.</li>
+                                            <li>Incorporate a number plate and the name of your residence on the entrance
+                                                gate for allowing opportunities to reach you easily. You can even light the
+                                                name nameplate for better and more long lasting benefits.</li>
+                                            <li>Do not sit in a position which faces your back to the entrance gate in order
+                                                to avoid cheating, deceit and betrayal in your life. In fact, always make
+                                                sure that your unwanted guests are given that position in the home.</li>
+                                            <li>The mental condition of your family members can be at stake if a toilet or
+                                                fireplace is created in the North-East direction of your home. This can even
+                                                expedite your tensions and problems. Always try to use initially energized
+                                                pyramids, blue bulbs, green creepers and yellow towels for lowering the
+                                                level of ill omens and effects.</li>
+                                            <li>Try to always keep the mirrors of your home clean and free from any
+                                                dust/dirt whatsoever, as, it might ruin the competence of the mirrors.
+                                                Ensure fresh paint work from time to time along with apt repairs of the
+                                                leaking taps and dysfunctional bulbs as soon as possible. Also try to keep
+                                                your windows clean, thereby getting rid of broken glass or glasses with
+                                                cracks quickly.</li>
+                                            <li>Water, especially water which is moving lures positive energy coupled with
+                                                monetary benefits. Try to face a small, decorative fountain or even an
+                                                aquarium facing the north for amazing results.</li>
+                                        </ul>
+                                        <b>By Sri Kamal</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Tips for Office/ Business</h4>
+                                        <ul>
+                                            <li>Make sure that the temple in your office does not face the posterior side of the seat of the office owner. Also try to keep the central portion of your office vacant.</li>
+                                            <li>The seat of the owner should face the north. The positive magnetic portion of the north exhibits sharp memory and helps you to enjoy a better and stronger power of grasping which in turn helps you to take correct and proper decisions while negotiating with potential customers. West is also a lucrative option in this regard, however, always to avoid south.</li>
+                                            <li>The office owner should always sit a proper and strong wall in his posterior portion which again is the farthest portion of the gate in order to procure holistic support from office colleagues, seniors and friends. Owners should never face their back from their main gates and unwanted guests and acquaintances should be given similar seats. A seat of similar sort decreases the strength of an individual and expedites his fears and insecurities.</li>
+                                            <li>Make sure that the owner’s desk is always a rectangular one. Also, try to incorporate a crystal globe facing the North-West corner of your table for procuring myriad offers from foreign clients. Also, rotate it at least thrice a day in a clockwise direction. In order to enhance the number of your prospective clients place your address book in the northwest corner of your desk. Moreover, you can also install 6 chimes or yellow rods in the North-Western area of your office in order to bring a huge number of clients for imports and exports in the overseas.</li>
+                                            <li>Keep the picture of a high altitude mountain the southwest corner of the room in order to avoid calamities and instabilities.</li>
+                                            <li>Ensure that your office does not have any broken marble as this can lead to broken relationships with your prospective clients and customers. Hide the broken part of the marble by a carpet. You can also fix it accordingly.</li>
+                                            <li>In order to expedite sales tie three coins with a red thread and incorporate it with your book for invoice.</li>
+                                            <li>A conference room or bedroom should always face the East/West direction. While taking new decisions, make sure that you face the Eastern side, as it will help you rise like the rising sun. West is a lucrative direction for analyzing your targets.</li>
+                                            <li>Ensure that you have a south-west direction in your home office. I the south-west direction is not available for you then you can easily opt for the North-West direction.</li>                                        
+                                        </ul>
+                                        <small>“Not withstanding this, in spite of our confidence in the veracity of the statements made herein, we strongly urge you to consult a competent vastu consultant for all of your specific vastu needs. As such any independent decisions taken solely on the basis of the website are entirely at your own risk and cost. Vasstu Vigyan in totality as an organisation or as a person will not be responsible for any consequences thereof nor we shall be accountable for your own interpretations.”</small>
                                         <br />
                                         <b>By Sri Kamal</b>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">General Tips Part-1</h4>
-                                    <p class="card-text">Very often, even a planned plot or construction can lead to
-                                        relevant problems for the individuals dwelling in the cities because of the
-                                        discrepancies in the shape, size, structure and level of the area in and around
-                                        the plot. However, you can easily evade these problems by simply following
-                                        certain Vastu guidelines in order to dwell prosperously according to the law of
-                                        health, wealth and holistic prosperity. It is even more advisable to consult a
-                                        Vastu expert; however these guidelines will suffice all your needs by providing
-                                        you with ample and effective tips regarding Vastu. Read along, to garner a
-                                        better idea about the subject and transform your destiny for good.</p>
-
-                                    <h5>These Guidelines Will Competently Help You To Improve Your Destiny</h5>
-                                    <ul>
-                                        <li>Make sure that there are three doorways (to the maximum) in a straight line.
-                                            This is because; an un-appropriate position near your entrance can cause the
-                                            deceleration of your level of prosperity to a considerable level.</li>
-                                        <li>Ensure that the doors constructed, face either the south/southwest/west
-                                            directions.</li>
-                                        <li>The rooms, especially the rooms like drawing rooms should face the
-                                            North/East direction.</li>
-                                        <li>Always keep the North, North-East, East and the ‘Bramha-sthan’ proper, well
-                                            maintained and without any heavy loads. On the contrary, try to keep the
-                                            South, South-west and Western side of the room comparatively heavy.</li>
-                                        <li>Ensure that your balconies, windows and the verandahs are
-                                            North/North-east/East facing.</li>
-                                        <li>The pillars present should be equal and even in their numbers and they
-                                            shouldn’t be place near the Bramha-Sthan.</li>
-                                        <li>Try to create an entrance gate which is larger than every other internal
-                                            gate of your home/office/apartment. Entrance gate can be created in all
-                                            other directions except the South-West one.</li>
-                                        <li>Do not incorporate bonsai, milk producing plants, plants with rubber or
-                                            cactus in your home, for avoiding serious ailments, relevant problems and
-                                            tension in the long run.</li>
-                                        <li>Under any and every circumstance, do not keep dysfunctional devices in your
-                                            homes like a dysfunctional watch, pen, telephone, mobile phone,
-                                            mixer-grinder, radio, improper ball point pens and cassettes in your homes.
-                                            These dysfunctional items can cause the presence of negative energy in your
-                                            homes thereby reducing and decreasing the level of prosperity and harmony.
-                                        </li>
-                                        <li>Try not to accept money in the middle of your two fingers, as it is believed
-                                            that this process can decrease the further advent of wealth. Always try to
-                                            accept or take the money using your five fingers.</li>
-                                    </ul>
-                                    <b>By Sri Kamal</b>
+                        <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab1">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Achieve Peace in Life
+                                        </h4>                                                                        
+                                        <p class="card-text">
+                                            <b>Achieve Peace in Life Using Vaastu</b>
+                                            <br />
+                                            The mantra of achieving true happiness in life is to be at peace. Well, peace is a relative term but how you look and feel peace gives a generalized definition. When life is at equilibrium in every aspect, people experience sheer peace. However, Almighty has put the ball in your court to be in charge of your own expectations and has given the access to treasure box of results. In this write-up you will discover how peace can be achieved and what are the reasons trailing around.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Gift of Self-possession:</b> Brain is the supreme controller of emotions and logics guided by human mind. It is divided into two segments, the left and right. The left side of the brain is responsible for decisions related to logical reasoning and the right side take decisions with emotions. When these two sides clash with one another to deliver a unanimous decision, peace disappears from your mind. Next, you are going to discuss the impact of poor vaastu accountable for mental turbulence. Do you sleep with your head resting towards north direction? If you, then it’s high time to change the direction because North Pole energy immensely disrupts mind even while sleeping. An additional factor to be ensured is overhead anxiety. This interprets your roof must not have beam above your head. Sometimes, you fail to see the hidden beams beneath false ceiling. It is recommended, not to sleep or sit under a beam in order to regain mental poise.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Gift of Calm Heart:</b> Usually, the origins of headaches are unfaithfulness, jealousies, failures and dissatisfaction. When your heart is under constant turmoil, it is to be assumed that you are not happy in life. But, the root of the turmoil can be figured from vaastu perspective. Claustrophobic and closed atmosphere gives lonely feeling which cut off connections with the outer world. Try to clear out your home by removing unwanted materials, let the air and light to play inside. This will soothe your heart. According to vaastu principles, the southern direction should be more open, i.e. it should have more doors and windows, and less in north directions because this brings gloominess and stress.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Gift of Composed Health</b>
+                                            <br />
+                                            Regular hospital visits, body aches, medicines and lengthy medical bills depict that peace at body is missing from one’s life. Once more, you will speak of the delicate forces and unseen powers that enter into the house and regulate body. It is necessary to determine whether these energies are positive or negative, by what amount these forces enter and whether they are adequate for a healthy existence. Kitchen and washroom plotted on the wrong direction will ruin the positive spirit. The flow of positive energy may be interrupted by asymmetrical layouts which results into poor health condition.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Gift of Compatible Soul Mate</b>
+                                            <br />
+                                            Life walks on bed of roses and becomes spicy when you and your life partner are well-matched. Non compatibility may have resulted due to faulty designs and placements of your private rooms. The fire area evokes heats of clashes; therefore it is better to stay away from the place except when you want to get rid of cold. Besides, other interiors like wall colors, home decors, wall hangings and entrance of the room matters a lot. When a water tap is placed near the direction of fire place, it raises misunderstandings. The kitchen setup like the gas, oven, water sink etc, should be placed according to vaastu to get a happy married life.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Gift of Peaceful Relationship with Father</b>
+                                            Father-daughter or father-son relationship is the purest of all. The modern society has cited examples where ego has ruined this relationship. Vastu can bring in peace and calmness in the relationship. The structure of your building or house greatly matters. It should not have more height in the north direction than south. The authoritative position, i.e. southwestern direction, should be occupied by father and not son/daughter to avoid clashes.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                        aria-labelledby="v-pills-messages-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">General Vaastu Gyan (Part- 2)</h4>
-                                    <ul>
-                                        <li>Thoroughly check the sound coming from your door-bell. An irritating or
-                                            displeasing sound can ruin the mood of the members of your family, thereby
-                                            vexing them. Again, a dull sound aptly decreases and affects the energy
-                                            level of your home. Make sure that the sound of the door bell is pleasing
-                                            and soothing, simultaneously.</li>
-                                        <li>A broken tile, floor or even marbles can be the main and a significant cause
-                                            for improper and broken relationships between the members of your family.
-                                            Try to cover the broken part with a cloth or a carpet of relevant sort in
-                                            order to procure an immediate solution to your problem.</li>
-                                        <li>Any electric pole or even a tree before your entrance gate or any of the
-                                            windows can cause serious and improper health for your family members.
-                                            Incorporate a convex mirror on the external wall in the direction of the
-                                            telephone pole or tree in order to save your family from bad omens.</li>
-                                        <li>Incorporate a number plate and the name of your residence on the entrance
-                                            gate for allowing opportunities to reach you easily. You can even light the
-                                            name nameplate for better and more long lasting benefits.</li>
-                                        <li>Do not sit in a position which faces your back to the entrance gate in order
-                                            to avoid cheating, deceit and betrayal in your life. In fact, always make
-                                            sure that your unwanted guests are given that position in the home.</li>
-                                        <li>The mental condition of your family members can be at stake if a toilet or
-                                            fireplace is created in the North-East direction of your home. This can even
-                                            expedite your tensions and problems. Always try to use initially energized
-                                            pyramids, blue bulbs, green creepers and yellow towels for lowering the
-                                            level of ill omens and effects.</li>
-                                        <li>Try to always keep the mirrors of your home clean and free from any
-                                            dust/dirt whatsoever, as, it might ruin the competence of the mirrors.
-                                            Ensure fresh paint work from time to time along with apt repairs of the
-                                            leaking taps and dysfunctional bulbs as soon as possible. Also try to keep
-                                            your windows clean, thereby getting rid of broken glass or glasses with
-                                            cracks quickly.</li>
-                                        <li>Water, especially water which is moving lures positive energy coupled with
-                                            monetary benefits. Try to face a small, decorative fountain or even an
-                                            aquarium facing the north for amazing results.</li>
-                                    </ul>
-                                    <b>By Sri Kamal</b>
+    
+                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab2">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Colors in Vaastu
+                                        </h4>     
+                                        <img src="img/7colours.png" class="img-fluid mb-3" />                                                                   
+                                        <p class="card-text">
+                                            <b>Red: </b>
+                                            <br />
+                                            This color has strong connection with body and life as it signifies blood. It symbolizes enthusiasm, materialism, lust and basic energies. Red is also equated with fire which signifies willpower and activity. Building structure facing south can be colored red in the front side. Those who think red is too bold to be the exterior paint, they can color some elements red in the exterior. The interior southern walls can be painted red in the living room to generate positive vibes. Deep love is represented through rosy red color shade. So, this can be used in bedroom. Remember not to use dark red and clear red color as they reflect anger.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Orange:</b> 
+                                            <br />
+                                            Pride, aspiration, communication and manipulative power can be associated with orange. It also symbolizes health and vitality. The southern walls of the bedroom can be colored orange to help achieve goals and aspirations. Furious natured people should avoid the color since it looks very fiery. Kitchen walls of south direction can also be colored orange
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Yellow:</b> 
+                                            <br />
+                                            It is a color of enlightenment, brightness, and intelligence. It also represents superior mental action and is a symbol of divinity. Yellow is the color for studies, attention and mental stabilizer. Northern walls can be painted yellow.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Green: </b>
+                                            <br />
+                                            The color symbolizes nature, wealth, fertility, positive force and prosperity. It also signifies revival which means reformation of fresh ideas. Green is also heals, rejuvenates heart and controls high-blood pressure. To beat irritation and annoyance, green is the best color. Married life can be made happier by inculcating green color. You can use pastel green color shade in southeastern sleeping rooms. This color harmonizes with east direction. House or building structure facing east must have some green shades in the front side. Consulting professionals, architects, fashion stylists and designers must keep green elements in their office.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Blue: </b>
+                                            <br />
+                                            It is the color of water and sky. Besides, blue also symbolizes emotions, motivation, devotion and genuineness. Like green, this is also considered as healing color. This color enhances compassion and lessens body pains. The color taps well with west direction. Do not use the color in restaurants, kitchens, shops, offices etc. You can use it in your kid’s bedroom. Blue color should not be used in southeast because southeast direction suits fire and blue is the color for water. Two anti factors in one place will lead to turmoil.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Indigo: </b>
+                                            <br />
+                                            It is a color which signifies strong association with inner self, crafts spiritual excellence and escalates psychological balance. You can use this color anywhere in your house excluding the kitchen and washroom. This color is best to be kept in study room and mediation halls as it enhance spirituality. Yellow or white can be a good partner of Indigo.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Violet: </b>
+                                            <br />
+                                            It is the color for religious fidelity, self-control and knowledge. The color is held responsible to raise memory, attentiveness, spiritualism and steadiness of mind. This color can be kept in puja rooms and study room. It is the color for students, people who require loads of mental work and scholars. This is also the color for people who are confused to make decisions, fail to think about self progression, etc.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Pink: </b>
+                                            <br />
+                                            It is a color which is frequently connected with affection, love and heart. It is the best color for newly couples who are newly wedded. To omit misunderstandings and clashes between couples, this color is the preferred one.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+    
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Tips for Office/ Business</h4>
-                                    <ul>
-                                        <li>Make sure that the temple in your office does not face the posterior side of the seat of the office owner. Also try to keep the central portion of your office vacant.</li>
-                                        <li>The seat of the owner should face the north. The positive magnetic portion of the north exhibits sharp memory and helps you to enjoy a better and stronger power of grasping which in turn helps you to take correct and proper decisions while negotiating with potential customers. West is also a lucrative option in this regard, however, always to avoid south.</li>
-                                        <li>The office owner should always sit a proper and strong wall in his posterior portion which again is the farthest portion of the gate in order to procure holistic support from office colleagues, seniors and friends. Owners should never face their back from their main gates and unwanted guests and acquaintances should be given similar seats. A seat of similar sort decreases the strength of an individual and expedites his fears and insecurities.</li>
-                                        <li>Make sure that the owner’s desk is always a rectangular one. Also, try to incorporate a crystal globe facing the North-West corner of your table for procuring myriad offers from foreign clients. Also, rotate it at least thrice a day in a clockwise direction. In order to enhance the number of your prospective clients place your address book in the northwest corner of your desk. Moreover, you can also install 6 chimes or yellow rods in the North-Western area of your office in order to bring a huge number of clients for imports and exports in the overseas.</li>
-                                        <li>Keep the picture of a high altitude mountain the southwest corner of the room in order to avoid calamities and instabilities.</li>
-                                        <li>Ensure that your office does not have any broken marble as this can lead to broken relationships with your prospective clients and customers. Hide the broken part of the marble by a carpet. You can also fix it accordingly.</li>
-                                        <li>In order to expedite sales tie three coins with a red thread and incorporate it with your book for invoice.</li>
-                                        <li>A conference room or bedroom should always face the East/West direction. While taking new decisions, make sure that you face the Eastern side, as it will help you rise like the rising sun. West is a lucrative direction for analyzing your targets.</li>
-                                        <li>Ensure that you have a south-west direction in your home office. I the south-west direction is not available for you then you can easily opt for the North-West direction.</li>                                        
-                                    </ul>
-                                    <small>“Not withstanding this, in spite of our confidence in the veracity of the statements made herein, we strongly urge you to consult a competent vastu consultant for all of your specific vastu needs. As such any independent decisions taken solely on the basis of the website are entirely at your own risk and cost. Vasstu Vigyan in totality as an organisation or as a person will not be responsible for any consequences thereof nor we shall be accountable for your own interpretations.”</small>
-                                    <br />
-                                    <b>By Sri Kamal</b>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab1">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Achieve Peace in Life
-                                    </h4>                                                                        
-                                    <p class="card-text">
-                                        <b>Achieve Peace in Life Using Vaastu</b>
-                                        <br />
-                                        The mantra of achieving true happiness in life is to be at peace. Well, peace is a relative term but how you look and feel peace gives a generalized definition. When life is at equilibrium in every aspect, people experience sheer peace. However, Almighty has put the ball in your court to be in charge of your own expectations and has given the access to treasure box of results. In this write-up you will discover how peace can be achieved and what are the reasons trailing around.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Gift of Self-possession:</b> Brain is the supreme controller of emotions and logics guided by human mind. It is divided into two segments, the left and right. The left side of the brain is responsible for decisions related to logical reasoning and the right side take decisions with emotions. When these two sides clash with one another to deliver a unanimous decision, peace disappears from your mind. Next, you are going to discuss the impact of poor vaastu accountable for mental turbulence. Do you sleep with your head resting towards north direction? If you, then it’s high time to change the direction because North Pole energy immensely disrupts mind even while sleeping. An additional factor to be ensured is overhead anxiety. This interprets your roof must not have beam above your head. Sometimes, you fail to see the hidden beams beneath false ceiling. It is recommended, not to sleep or sit under a beam in order to regain mental poise.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Gift of Calm Heart:</b> Usually, the origins of headaches are unfaithfulness, jealousies, failures and dissatisfaction. When your heart is under constant turmoil, it is to be assumed that you are not happy in life. But, the root of the turmoil can be figured from vaastu perspective. Claustrophobic and closed atmosphere gives lonely feeling which cut off connections with the outer world. Try to clear out your home by removing unwanted materials, let the air and light to play inside. This will soothe your heart. According to vaastu principles, the southern direction should be more open, i.e. it should have more doors and windows, and less in north directions because this brings gloominess and stress.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Gift of Composed Health</b>
-                                        <br />
-                                        Regular hospital visits, body aches, medicines and lengthy medical bills depict that peace at body is missing from one’s life. Once more, you will speak of the delicate forces and unseen powers that enter into the house and regulate body. It is necessary to determine whether these energies are positive or negative, by what amount these forces enter and whether they are adequate for a healthy existence. Kitchen and washroom plotted on the wrong direction will ruin the positive spirit. The flow of positive energy may be interrupted by asymmetrical layouts which results into poor health condition.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Gift of Compatible Soul Mate</b>
-                                        <br />
-                                        Life walks on bed of roses and becomes spicy when you and your life partner are well-matched. Non compatibility may have resulted due to faulty designs and placements of your private rooms. The fire area evokes heats of clashes; therefore it is better to stay away from the place except when you want to get rid of cold. Besides, other interiors like wall colors, home decors, wall hangings and entrance of the room matters a lot. When a water tap is placed near the direction of fire place, it raises misunderstandings. The kitchen setup like the gas, oven, water sink etc, should be placed according to vaastu to get a happy married life.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Gift of Peaceful Relationship with Father</b>
-                                        Father-daughter or father-son relationship is the purest of all. The modern society has cited examples where ego has ruined this relationship. Vastu can bring in peace and calmness in the relationship. The structure of your building or house greatly matters. It should not have more height in the north direction than south. The authoritative position, i.e. southwestern direction, should be occupied by father and not son/daughter to avoid clashes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab2">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Colors in Vaastu
-                                    </h4>     
-                                    <img src="images/7colours.png" class="img-fluid mb-3" />                                                                   
-                                    <p class="card-text">
-                                        <b>Red: </b>
-                                        <br />
-                                        This color has strong connection with body and life as it signifies blood. It symbolizes enthusiasm, materialism, lust and basic energies. Red is also equated with fire which signifies willpower and activity. Building structure facing south can be colored red in the front side. Those who think red is too bold to be the exterior paint, they can color some elements red in the exterior. The interior southern walls can be painted red in the living room to generate positive vibes. Deep love is represented through rosy red color shade. So, this can be used in bedroom. Remember not to use dark red and clear red color as they reflect anger.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Orange:</b> 
-                                        <br />
-                                        Pride, aspiration, communication and manipulative power can be associated with orange. It also symbolizes health and vitality. The southern walls of the bedroom can be colored orange to help achieve goals and aspirations. Furious natured people should avoid the color since it looks very fiery. Kitchen walls of south direction can also be colored orange
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Yellow:</b> 
-                                        <br />
-                                        It is a color of enlightenment, brightness, and intelligence. It also represents superior mental action and is a symbol of divinity. Yellow is the color for studies, attention and mental stabilizer. Northern walls can be painted yellow.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Green: </b>
-                                        <br />
-                                        The color symbolizes nature, wealth, fertility, positive force and prosperity. It also signifies revival which means reformation of fresh ideas. Green is also heals, rejuvenates heart and controls high-blood pressure. To beat irritation and annoyance, green is the best color. Married life can be made happier by inculcating green color. You can use pastel green color shade in southeastern sleeping rooms. This color harmonizes with east direction. House or building structure facing east must have some green shades in the front side. Consulting professionals, architects, fashion stylists and designers must keep green elements in their office.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Blue: </b>
-                                        <br />
-                                        It is the color of water and sky. Besides, blue also symbolizes emotions, motivation, devotion and genuineness. Like green, this is also considered as healing color. This color enhances compassion and lessens body pains. The color taps well with west direction. Do not use the color in restaurants, kitchens, shops, offices etc. You can use it in your kid’s bedroom. Blue color should not be used in southeast because southeast direction suits fire and blue is the color for water. Two anti factors in one place will lead to turmoil.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Indigo: </b>
-                                        <br />
-                                        It is a color which signifies strong association with inner self, crafts spiritual excellence and escalates psychological balance. You can use this color anywhere in your house excluding the kitchen and washroom. This color is best to be kept in study room and mediation halls as it enhance spirituality. Yellow or white can be a good partner of Indigo.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Violet: </b>
-                                        <br />
-                                        It is the color for religious fidelity, self-control and knowledge. The color is held responsible to raise memory, attentiveness, spiritualism and steadiness of mind. This color can be kept in puja rooms and study room. It is the color for students, people who require loads of mental work and scholars. This is also the color for people who are confused to make decisions, fail to think about self progression, etc.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Pink: </b>
-                                        <br />
-                                        It is a color which is frequently connected with affection, love and heart. It is the best color for newly couples who are newly wedded. To omit misunderstandings and clashes between couples, this color is the preferred one.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Service End -->    
+        
 
-    <!-- Footer -->
-    <footer class="pt-2 pb-1 bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h6 class="mb-4 text-white text-center">All Rights Reserved | Copyright 2022 © Vaastu Vigyan</h6>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>HSR Extension, Reliable Tranquil Layout, Bengaluru, Karnataka 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9591405555</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>consult@vaastuvigyan.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="vaastutips.html">Vaastu Tips</a>
+                    <a class="btn btn-link" href="vaastugyan.html">Vaastu Gyan</a>
+                    <a class="btn btn-link" href="benefits.html">Benefits</a>
+                    <a class="btn btn-link" href="consultation.html">Consultation</a>
+                </div> -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Sri Kamal</h4>
+                    <p>Sri Kamal is a Vaastu Expert, Reiki Grand Master, Astro Numerologist and Philanthropist is renewed Occultist and a person of Diversified Interests.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="index.html">Blog</a>
+                    <a class="btn btn-link" href="index.html">Testimonials</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
-    </footer>
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container"> </div>
-    </footer>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/style.min.js"></script>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Vaastu Vigyan</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">larks.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

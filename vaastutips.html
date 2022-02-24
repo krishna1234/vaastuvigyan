@@ -3,1218 +3,1263 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Vaastu Vigyan</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>Woody - Carpenter Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- top bar -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7"><span class="icon-phone"></span>&nbsp;Questions? &nbsp;Call us: <strong>+91
-                        9591405555</strong> <i class="fas fa-envelope"></i> Mail:
-                    <strong>consult@vaastuvigyan.com</strong>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-envelope text-primary me-2"></small>
+                    <small>consult@vaastuvigyan.com</small>
                 </div>
-                <div class="col-md-5 float-right">
-                    <a href="about.html" class="text-white">About us</a> |
-                    <a href="testimonial.html" class="text-white">Testimonials</a> |
-                    <a href="index.html" class="text-white">Blog</a> |
-                    <a href="contact.html" class="text-white">Contact us</a>
-                    <span class="d-inline-block pl-5"><a href="https://www.facebook.com/raajVastuVigyan/?fref=ts"
-                            target="_blank"><i class="fab fa-facebook"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://twitter.com/vvigyan" target="_blank"><i
-                                class="fab fa-twitter"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://www.youtube.com/watch?v=90AjIWUSId4"
-                            target="_blank"><i class="fab fa-youtube"></i></a></span>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div> -->
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 9591405555</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.facebook.com/raajVastuVigyan/?fref=ts"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/vvigyan"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.youtube.com/watch?v=90AjIWUSId4"><i class="fab fa-youtube"></i></a>
+                    <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="images/logo.jpeg" class="img-fluid"
-                    style="height: 60px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
-                    <li class="nav-item"> <a class="nav-link active" href="vaastutips.html">Vaastu Tips</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastugyan.html">Vaastu Gyan</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="benefits.html">Benefits</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="consultation.html">Consultation</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="navratans.html">Nav Ratans</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="geopathicstress.html">Geopathic
-                            Strss</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="dowsing.html">Dowsing</a> </li>
-                </ul>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.jpeg" class="img-fluid" style="height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="vaastutips.html" class="nav-item nav-link active">Vaastu Tips</a>
+                <a href="vaastugyan.html" class="nav-item nav-link">Vaastu Gyan</a>
+                <a href="benefits.html" class="nav-item nav-link">Benefits</a>
+                <a href="consultation.html" class="nav-item nav-link">Consultation</a>
+                <a href="navratans.html" class="nav-item nav-link">Nav Ratans</a>
+                <a href="geopathicstress.html" class="nav-item nav-link">Geopathic Stress</a>
+                <a href="dowsing.html" class="nav-item nav-link">Dowsing</a>
             </div>
+            <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
-    <!-- Header -->
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-3 col-xs-12 mb-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                        aria-selected="true">For Dining Room</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">For Kitchen</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                        aria-selected="false">For Drawing Room</button>
-                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                        aria-selected="false">For Pooja Room</button>
-                    <button class="nav-link" id="v-pills-settings-tab1" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
-                        aria-selected="false">For Bathroom</button>
-                    <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
-                        aria-selected="false">For Septick Tank</button>
-                    <button class="nav-link" id="v-pills-settings-tab3" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings3" type="button" role="tab" aria-controls="v-pills-settings3"
-                        aria-selected="false">For Garage</button>
-                    <button class="nav-link" id="v-pills-settings-tab4" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings4" type="button" role="tab" aria-controls="v-pills-settings4"
-                        aria-selected="false">For Door and Windows</button>
-                    <button class="nav-link" id="v-pills-settings-tab5" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings5" type="button" role="tab" aria-controls="v-pills-settings5"
-                        aria-selected="false">For Plot</button>
-                    <button class="nav-link" id="v-pills-settings-tab6" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings6" type="button" role="tab" aria-controls="v-pills-settings6"
-                        aria-selected="false">For Stair Case</button>
-                    <button class="nav-link" id="v-pills-settings-tab7" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings7" type="button" role="tab" aria-controls="v-pills-settings7"
-                        aria-selected="false">For Factory</button>
-                    <button class="nav-link" id="v-pills-settings-tab8" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings8" type="button" role="tab" aria-controls="v-pills-settings8"
-                        aria-selected="false">For Office</button>
-                    <button class="nav-link" id="v-pills-settings-tab9" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings9" type="button" role="tab" aria-controls="v-pills-settings9"
-                        aria-selected="false">For Showrooms</button>
-                    <button class="nav-link" id="v-pills-settings-tab10" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings10" type="button" role="tab" aria-controls="v-pills-settings10"
-                        aria-selected="false">For Apartments</button>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-vaastu-tips py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Vaastu Tips</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Vaastu Tips</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xs-12 mb-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link bg-primary mb-2 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">For Dining Room</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">For Kitchen</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">For Drawing Room</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">For Pooja Room</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab1" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
+                            aria-selected="false">For Bathroom</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab2" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
+                            aria-selected="false">For Septick Tank</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab3" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings3" type="button" role="tab" aria-controls="v-pills-settings3"
+                            aria-selected="false">For Garage</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab4" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings4" type="button" role="tab" aria-controls="v-pills-settings4"
+                            aria-selected="false">For Door and Windows</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab5" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings5" type="button" role="tab" aria-controls="v-pills-settings5"
+                            aria-selected="false">For Plot</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab6" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings6" type="button" role="tab" aria-controls="v-pills-settings6"
+                            aria-selected="false">For Stair Case</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab7" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings7" type="button" role="tab" aria-controls="v-pills-settings7"
+                            aria-selected="false">For Factory</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab8" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings8" type="button" role="tab" aria-controls="v-pills-settings8"
+                            aria-selected="false">For Office</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab9" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings9" type="button" role="tab" aria-controls="v-pills-settings9"
+                            aria-selected="false">For Showrooms</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab10" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings10" type="button" role="tab" aria-controls="v-pills-settings10"
+                            aria-selected="false">For Apartments</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-9 col-xs-12">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Dining Room
-                                    </h4>
-                                    <div class="row">
-                                        <div class="col-lg-9">
-                                            <p class="card-text">There can be several different looks to a dining hall-
-                                                traditional, glamorous, romantic or modern, but there is one thing that
-                                                remains the same. Every dining is (or rather should be) built according
-                                                to the norms set by vastu for dining room. If the interiors of the area
-                                                are not designed as per this system, your perfect space will transform
-                                                into a depressing, bad-luck creator. Here are a few tips that will help
-                                                you create an atmosphere which is not just perfect for meals but also
-                                                for attracting prosperity and luck.</p>
+                <div class="col-lg-9 col-xs-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Dining Room
+                                        </h4>
+                                        <div class="row">
+                                            <div class="col-lg-9">
+                                                <p class="card-text">There can be several different looks to a dining hall-
+                                                    traditional, glamorous, romantic or modern, but there is one thing that
+                                                    remains the same. Every dining is (or rather should be) built according
+                                                    to the norms set by vastu for dining room. If the interiors of the area
+                                                    are not designed as per this system, your perfect space will transform
+                                                    into a depressing, bad-luck creator. Here are a few tips that will help
+                                                    you create an atmosphere which is not just perfect for meals but also
+                                                    for attracting prosperity and luck.</p>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <img src="img/vaastu_house.jpg" class="img-fluid" />
+                                            </div>
                                         </div>
-                                        <div class="col-lg-3">
-                                            <img src="images/vaastu_house.jpg" class="img-fluid" />
-                                        </div>
+    
+                                        <h5 class="pt-3">Consult our Vastu Expert for Right Direction For Accessories</h5>
+    
+                                        <h6>Sitting Arrangement</h6>
+                                        <ul>
+                                            <li>The head of the family must always face east while eating.</li>
+                                            <li>The rest of the members can face north, east, or west.</li>
+                                            <li>Avoid the Southern direction.</li>
+                                            <li>Keep the number of dining chairs even to avoid dispute within the family
+                                                members.</li>
+                                            <li>Avoid painting the walls white or black.</li>
+                                            <li>The dining table in the room must be rectangle or square.</li>
+                                            <li>Dining table must never stick to the wall.</li>
+                                            <li>The main entrance of the Dining Room and house must never face one another.
+                                            </li>
+                                            <li>Pooja room/toilet door must not open right in front of the dining area.</li>
+                                            <li>Beautiful paintings and portraits hung inside the dining room create an
+                                                atmosphere of pleasure and happiness.</li>
+                                            <li>As per vastu for dining room, the lighting in the room must be relaxed and
+                                                easy.</li>
+                                        </ul>
                                     </div>
-
-                                    <h5 class="pt-3">Consult our Vastu Expert for Right Direction For Accessories</h5>
-
-                                    <h6>Sitting Arrangement</h6>
-                                    <ul>
-                                        <li>The head of the family must always face east while eating.</li>
-                                        <li>The rest of the members can face north, east, or west.</li>
-                                        <li>Avoid the Southern direction.</li>
-                                        <li>Keep the number of dining chairs even to avoid dispute within the family
-                                            members.</li>
-                                        <li>Avoid painting the walls white or black.</li>
-                                        <li>The dining table in the room must be rectangle or square.</li>
-                                        <li>Dining table must never stick to the wall.</li>
-                                        <li>The main entrance of the Dining Room and house must never face one another.
-                                        </li>
-                                        <li>Pooja room/toilet door must not open right in front of the dining area.</li>
-                                        <li>Beautiful paintings and portraits hung inside the dining room create an
-                                            atmosphere of pleasure and happiness.</li>
-                                        <li>As per vastu for dining room, the lighting in the room must be relaxed and
-                                            easy.</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Kitchen</h4>
-                                    <p class="card-text">The ideal direction for a kitchen is the Southeastern corner of
-                                        a house. The second best choice is the Northwest of a house.
-                                    </p>
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Type</th>
-                                                <th>Best Direction</th>
-                                                <th>Pointer</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Entry door</td>
-                                                <td>North, East, or West</td>
-                                                <td>The kitchen door must not be in any of the corners.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Gas Cylinder</td>
-                                                <td>Southeast</td>
-                                                <td>Empty cylinders should be kept in the southwestern direction</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Cooking Gas</td>
-                                                <td>Southeast Corner</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>Gas stove must be a few inches away from the wall.</li>
-                                                        <li>It must never be in front of the main door.</li>
-                                                        <li>It should be placed in a way that the cook faces east when
-                                                            cooking.</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Refrigerator</td>
-                                                <td>Southeast, South, North or West</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>Refrigerator must never be in Northeastern direction.</li>
-                                                        <li>If the refrigerator is placed in the southwestern direction,
-                                                            it must
-                                                            be a feet away from the corner.</li>
-                                                    </ul>
-                                            </tr>
-                                            <tr>
-                                                <td>Equipments(e.g.Heaters, Conventional ovens, Microwaves, ovens)</td>
-                                                <td>Southeast or South</td>
-                                                <td>Equipments must never be kept in the northeast portion.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Storing Racks</td>
-                                                <td>Western or Southern wall</td>
-                                                <td>Commodities such as, grain, pulses, and spices, must be stored in
-                                                    the west or south.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sink</td>
-                                                <td>North-East corner</td>
-                                                <td>The water source such as, water filter or pitcher, should be kept in
-                                                    the northeast.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Windows and Exhaust fan</td>
-                                                <td>East direction</td>
-                                                <td>The bigger windows should always be constructed in the eastern
-                                                    direction, while smaller ones must be towards south.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Clocks</td>
-                                                <td>South or Southwest Wall</td>
-                                                <td>------</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                        aria-labelledby="v-pills-messages-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Drawing Room</h4>
-                                    <p class="card-text">The perfect location of a drawing room is essentially based on
-                                        the direction your house faces, a drawing room can be in the central west,
-                                        central east, and central south or central north of a house.
-                                    </p>
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Accessories</th>
-                                                <th>Best Direction As Per Vaastu</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Telephone</td>
-                                                <td>Southwast</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Electrical Appliances</td>
-                                                <td>Southeast</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Furniture</td>
-                                                <td>Southern And Western Corners</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Showcase and Almirah</td>
-                                                <td>Southwest Corner</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Cooler or A.C</td>
-                                                <td>West or North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pictures depicting water bodies, Water Fountains, Aquariums</td>
-                                                <td>North to East Area</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Chandelier</td>
-                                                <td>A little towards the west, never at the centre</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Door</td>
-                                                <td>East or North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Window</td>
-                                                <td>East or North</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p class="card-text">You can buy carpets and rugs for your living room in colours
-                                        pertaining to the direction you want to use them in:
-                                        Placement Of Carpets And Rugs According To Vaastu For Drawing Room.</p>
-
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Planet</th>
-                                                <th>Direction</th>
-                                                <th>Colour</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>North</td>
-                                                <td>North</td>
-                                                <td>Yellow</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mercury</td>
-                                                <td>Northeast</td>
-                                                <td>Green</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Moon</td>
-                                                <td>Northwest</td>
-                                                <td>Copper, White, Red</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Venus</td>
-                                                <td>Southeast</td>
-                                                <td>Rainbow Colors</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mars</td>
-                                                <td>South</td>
-                                                <td>Dull or Pastel colors of Blue</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Rahu</td>
-                                                <td>Southwest</td>
-                                                <td>Blue or Black</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturn</td>
-                                                <td>South</td>
-                                                <td>Red</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sun</td>
-                                                <td>East</td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <h5>Consult our expert for Seating Arrangement In The Living Room
-                                    </h5>
-                                    <ul>
-                                        <li>The furniture in the room must be rectangular or square.</li>
-                                        <li>Rectangle, square and round shapes are apt for the center table.</li>
-                                        <li>Make sure the furniture is a few inches away from the wall (it must not
-                                            touch the wall)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Pooja Room</h4>
-                                    <p class="card-text">Get close to God and declare your eternal love for him by
-                                        creating a haven of serenity, love and tranquility in your house. Beautiful
-                                        Pujaghars created according to vaastu can help the deity's shine their guiding
-                                        light on every area of our being and help us live a happy, positive and
-                                        prosperous life. The best corner for a pooja room in a house is North-east.
-                                        Apart from this, you can also opt for directions such as North and East for
-                                        constructing a holy place.
-                                    </p>
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Objects Inside A Pooja Room</th>
-                                                <th>Best Direction</th>
-                                                <th>Advice</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Lamp stand or up-lighter</td>
-                                                <td>South-East Corner</td>
-                                                <td>A lamp according to vaastu for pooja room should always be right in
-                                                    front of the Idols.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Almirah or show-case</td>
-                                                <td>Southern or Western Wall</td>
-                                                <td>Should be lower than the idols</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Idols</td>
-                                                <td>East or West</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>Height of the idols must not be less than 2" and more than
-                                                            9".</li>
-                                                        <li>Holy idols must never face south or north.</li>
-                                                        <li>The idols must not be placed right in front of the entry.
-                                                        </li>
-                                                        <li>The idols must never face each other</li>
-                                                        <li>There should never be 2 idols of the same God in the room
-                                                        </li>
-                                                        <li>Idols must be an inch away from the walls"</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Doors and windows</td>
-                                                <td>North or East</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>According to vaastu for windows and doors, puja room doors
-                                                            must
-                                                            always have two shutters</li>
-                                                        <li>There should be no door closer</li>
-                                                        <li>Doors must not open or close automatically</li>
-                                                        <li>They must not be made of material such as iron or tin.</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Homekund or Agnikund</td>
-                                                <td>South-East direction</td>
-                                                <td>The offerings to the fire must always be made with the person's face
-                                                    towards east.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mezzanine protruding out of the worship room</td>
-                                                <td>West or South</td>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Water body</td>
-                                                <td>North or East</td>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Puja Samigri</td>
-                                                <td>South East</td>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Alter</td>
-                                                <td>North-East</td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
-                                    <h5>Worshipping The Dieties
-                                    </h5>
-                                    <ul>
-                                        <li>The members of the house should face east or north while worshipping.</li>
-                                        <li>People must never draw triangular patterns of Gods in the Pujaghar.</li>
-                                        <li>Uninterrupted chanting of the gods is very auspicious; it can be done by
-                                            playing a cassette inside the pooja room.</li>
-                                        <li>One must never enter a pooja room without taking bath.</li>
-                                    </ul>
-                                    <h5>Things To Avoid According To Vaastu For Pooja Room
-                                    </h5>
-                                    <ul>
-                                        <li>Pujaghar must never be in the bedroom.</li>
-                                        <li>A Puja room must never be in the southern direction.</li>
-                                        <li>There should be no toilet above, below or adjacent to the worship room.</li>
-                                        <li>The Idols brought in the despoiled form from temples must never be kept in
-                                            the pooja room.</li>
-                                        <li>No idol in the pujagjar must be in a desecrated form.</li>
-                                        <li>No heavy articles should be hoarded in the pooja room.</li>
-                                        <li>Valuable items such as jewelry or money must never be kept hidden inside the
-                                            worship room.</li>
-                                        <li>The worship room must not be made above gas stoves or electrical appliances.
-                                        </li>
-                                        <li>As also mentioned in Vaastu for garden, Tulsi (Basil Plant) must be planted
-                                            in the house.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab1">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Bathroom</h4>
-                                    <p class="card-text">A bathroom is, hands down, one of the most important rooms in a
-                                        pad. However, most people are completely ignorant of the intricate rules that
-                                        govern this particular space. Putting in a humble amount of effort to rebuild a
-                                        lavatory according to vaastu for bathroom will reap several rewards for you, and
-                                        may even make it your new sanctuary, after the bedroom!
-                                    </p>
-                                    <p class="card-text">
-                                        Call us for write to us for the most appropriate location for constructing a
-                                        bathroom.
-                                    </p>
-                                    <h6 class="font-weight-bold">Auspicious Directions For Various Bathroom Accessories
-                                    </h6>
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Accessories</th>
-                                                <th>Direction</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Mirror</td>
-                                                <td>North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Taps and showers</td>
-                                                <td>North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Toilet</td>
-                                                <td>West or Northwest (a couple of feet above the ground)</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Geyser, switchboard, other electrical equipments</td>
-                                                <td>Southeast corner</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Southeast</td>
-                                                <td>corner</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bathtub</td>
-                                                <td>West</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sink</td>
-                                                <td>North , East or Northeast</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Overhead tank</td>
-                                                <td>Northwest</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Drainage system</td>
-                                                <td>Northeast</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Windows or ventilators</td>
-                                                <td>East or the north</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Changing room</td>
-                                                <td>South or West</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Door</td>
-                                                <td>East</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Window</td>
-                                                <td>East or North</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p class="card-text font-weight-bold">Consult our Vaastu Expert for Auspicious
-                                        Colors For The Bathroom.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab2">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Septick Tank</h4>
-                                    <p class="card-text">The evolutionary transition of our society from 'traditional'
-                                        to 'modern' has led to some drastic changes in house structures and designing.
-                                        One of such changes is the invention of septic tanks. Septic tanks are
-                                        economical, environmentally friendly and effective private sewage treatment
-                                        plants. However, like every other component of a house structure, they too must
-                                        be built according to vaastu for septic tank.
-                                    </p>
-                                    <p class="card-text">
-                                        Call us for write to us for the most appropriate location for constructing a
-                                        bathroom.
-                                    </p>
-                                    <h6 class="font-weight-bold">Tips
-                                    </h6>
-                                    <ul>
-                                        <li>Septic tank must never face north east, south-east, or south west corner.
-                                        </li>
-                                        <li>It should not directly touch the compound wall. In fact the tank must be at
-                                            least two feet away from the wall.</li>
-                                        <li>If there is a scarcity of space, the tank must be in the northern corner of
-                                            west. However, make sure that the tank is at least two feet away from the
-                                            wall of your compound.</li>
-                                        <li>As per vaastu for septic tank, the length of the tank must be in the
-                                            east-west, while the breadth should be in the south-north.</li>
-                                    </ul>
-                                    <h6 class="font-weight-bold">Things To Keep In Mind</h6>
-                                    <ul>
-                                        <li>You should never have outlets in the south. However, in case the vent is in
-                                            the southern direction it must be turned to north or east.</li>
-                                        <li>Bathroom and kitchen pipes must have their outlets in the north or east
-                                            direction.</li>
-                                        <li>The bathroom pipes and toilet pipes must be diverted to the north-west or
-                                            west direction.</li>
-                                        <li>The gutter can be in any other direction except for south.</li>
-                                        <li>Pipes that come from the upper floor must never be in the south-west corner.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab3">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Garage</h4>
-                                    <ul>
-                                        <li>The garage must always be built in the southeast or northwest of a house.
-                                        </li>
-                                        <li>When designing a garage make sure at least three feet of walking space is
-                                            left inside after the car is parked. This ensures free movement of air and
-                                            light.</li>
-                                        <li>The car shed must never touch the compound wall or building.</li>
-                                        <li>Preferably, the garage gate should face east or north. It is important to
-                                            make sure that the height of the gate is not more than the height of the
-                                            main gate of the house (affixed at the compound wall). Also, the gate must
-                                            open freely, without any obstruction.</li>
-                                        <li>Trash or inflammable material must never be stored inside a garage.</li>
-                                        <li>The floor in the garage should slope towards the eastern or northern
-                                            direction.</li>
-                                    </ul>
-                                    <h6 class="font-weight-bold">Car Parking</h6>
-                                    <ul>
-                                        <li>If you place your car in the west side of a northwest located garage, you
-                                            will undergo a lot of traveling.</li>
-                                        <li>If a car is parked in the southwestern corner, it will require slight repair
-                                            work on a regular basis.</li>
-                                        <li>Never park a car in the northeastern direction. This is because northeast is
-                                            where the heavenly forces flow; a parked car would block these forces.
-                                            However, at the same time, if the garage is in the basement, parking in the
-                                            northeastern side is permitted.</li>
-                                        <li>A garage located in the southwest would mean rare usage of the vehicle and
-                                            constant repairing.</li>
-                                        <li>When parking, always park the vehicle with its front facing east or north.
-                                            This will guarantee that the vehicle would never get worked up.</li>
-                                        <li>If you park the car facing west or south side, possibilities are that the
-                                            car will face fire hazards.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab4">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Doors and Windows</h4>
-                                    <p class="card-text">
-                                        The smallest of articles can make a huge difference in the way your luck runs
-                                        for you. Doors and windows are not merely passages for insulation or for people
-                                        to enter but are also gateways for positive and negative energies to come into
-                                        the house. If a window is designed incorrectly in the wrong direction, it can
-                                        pave way for the negative energies to come in and spell disaster for the
-                                        inhabitants. Conversely, if the doors and windows are constructed in the right
-                                        direction, they can bring in a lot of prosperity and luck.
-                                    </p>
-                                    <p class="card-text">This is also agreed to by Braunth Sanhita, which in one excerpt
-                                        says-
-                                    </p>
-                                    <p class="card-text">
-                                        <b>“Mool Dwaaram Naanayyarabhisanthathi Roopdurya, Gatpal Patra Pramathibhishch
-                                            Thanmadulau shrich nuyath”</b>
-                                        <br />
-                                        <b>Translation:</b> The main door of a residence must be bigger than any other
-                                        door in the house. Also, it must be more beautiful compared to the others. This
-                                        helps bring in luck and prosperity.
-                                    </p>
-                                    <p class="card-text">Here are a few tips which need to be kept in mind when
-                                        designing the doors and windows according to vaastu for house:
-                                    </p>
-                                    <ul>
-                                        <li>According to vaastu for house structure, a house must at all times have even
-                                            numbers of windows and doors (e.g. 2, 4, 6, 8, etc).</li>
-                                        <li>When fixing the windows and doors, it is important to keep cross-ventilation
-                                            in mind. Also, it’s essential to fix windows and doors opposite to one
-                                            another to allow more light and air to enter.</li>
-                                        <li>Doors must never be placed at the center of a wall.</li>
-                                        <li>South facing houses must have north facing entrances so that they fall at
-                                            the eastern half.</li>
-                                        <li>North facing houses must have north facing entrances so that they fall at
-                                            the eastern half of the side.</li>
-                                        <li>West facing houses must have their entrance towards West, to make sure the
-                                            main door falls at the Northern half of the side.</li>
-                                        <li>The entrance for east facing houses must be fixed towards East, to make sure
-                                            the main door falls towards the Northern half of the side.</li>
-                                        <li>The main gates of two houses facing each other must never open towards each
-                                            other. Doors such as these are very inauspicious.</li>
-                                        <li>Teak is the best wood for making doors and windows.</li>
-                                        <li>Square or uneven furnishing articles must be avoided.</li>
-                                        <li>All the windows must have symmetry and must be proportionate in height.</li>
-                                        <li>There must be absolutely no obstruction, such as plants, Temple, staircases,
-                                            and the like, in front of the main entrance.</li>
-                                        <li>Construct doors in the beginning and end of a staircase. For detailed
-                                            information on this topic visit vaastu for staircase.</li>
-                                    </ul>
-
-                                    <table class="table table-bordered table-responsive">
-                                        <thead>
-                                            <tr class="text-center">
-                                                <th>Starting sound of a person's Name</th>
-                                                <th>Main door's Direction</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>A, I, O, U</td>
-                                                <td>North or West</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ka, Gh</td>
-                                                <td>North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ch, Ja</td>
-                                                <td>North or West</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ta, Da</td>
-                                                <td>West</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tha, Dha, Na</td>
-                                                <td>East or North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pa, Pha, Ba, Bha, Ma</td>
-                                                <td>North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ya, Ra, La, Va</td>
-                                                <td>South or North</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sa, Sha, Ha</td>
-                                                <td>East</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p class="card-text">Doorway constructed at the eastern direction is very
-                                        auspicious. However, you can also construct entrances in the western and
-                                        northern side. An entry in the southern direction is not suitable.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab5">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Plot</h4>
-                                    <hr />
-                                    <form>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">What side does your plot
-                                                face?</label>
-                                            <select class="form-select">
-                                                <option value="">Direction</option>
-                                                <option value="10">East</option>
-                                                <option value="9">North-East</option>
-                                                <option value="8">North</option>
-                                                <option value="7">North-West</option>
-                                                <option value="6">South-West</option>
-                                                <option value="5">West</option>
-                                                <option value="4">South</option>
-                                                <option value="3">South_East</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Does the plot have spearing
-                                                roads/ streets/ lanes?</label>
-                                            <select class="form-select">
-                                                <option value="">Spearing roads in Direction</option>
-                                                <option value="10">North East or East</option>
-                                                <option value="9">North East or North</option>
-                                                <option value="8">North West or West</option>
-                                                <option value="7">South East or South</option>
-                                                <option value="6">South East or East</option>
-                                                <option value="5">North West or North</option>
-                                                <option value="4">South West</option>
-                                                <option value="3">South West and South</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Which is the soil quality
-                                                like?</label>
-                                            <select id="soil" class="form-select">
-                                                <option value="">Soil Quality</option>
-                                                <option value="10">Pleasant smelling, Yellowish red soil</option>
-                                                <option value="9">Pleasant smelling, Reddish soil</option>
-                                                <option value="8">Pleasant smelling, Yellowish soil</option>
-                                                <option value="7">Rocky land with pleasant surroundings</option>
-                                                <option value="6">Sandy land with pleasant surroundings</option>
-                                                <option value="5">Sandy land with foul odor</option>
-                                                <option value="4">Rocky land with foul odor</option>
-                                                <option value="3">Marshy and Black soil</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Which side is your plot sloping
-                                                towards?</label>
-                                            <select id="side_direction" class="form-select">
-                                                <option value="">Side</option>
-                                                <option value="10">North-East</option>
-                                                <option value="9">East</option>
-                                                <option value="8">North</option>
-                                                <option value="7">North-West</option>
-                                                <option value="6">South-East</option>
-                                                <option value="5">South</option>
-                                                <option value="4">West</option>
-                                                <option value="3">South-West</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Which side is your plot raised
-                                                towards?</label>
-                                            <select id="slope" class="form-select">
-                                                <option value="">Direction</option>
-                                                <option value="10">South west</option>
-                                                <option value="9">West</option>
-                                                <option value="8">South</option>
-                                                <option value="7">South east</option>
-                                                <option value="6">North West</option>
-                                                <option value="5">North</option>
-                                                <option value="4">East</option>
-                                                <option value="3">North east</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">With respect to the Earth's
-                                                Magnetic Axis, what is the angle of the plot's tilt?</label>
-                                            <select id="plot_angle" class="form-select">
-                                                <option value="">Angle</option>
-                                                <option value="10">Zero to Five</option>
-                                                <option value="9">Five to Ten</option>
-                                                <option value="8">Ten to Fifteen</option>
-                                                <option value="7">Fifteen to Twenty</option>
-                                                <option value="6">Twenty to Twenty five</option>
-                                                <option value="5">Twenty five to Thirty</option>
-                                                <option value="4">Thirty to Thirty five</option>
-                                                <option value="3">Thirty five to Forty</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Which shape does your plot
-                                                have?</label>
-                                            <select id="plot_shape" class="form-select">
-                                                <option value="">Shape</option>
-                                                <option value="10">Square shape with extension at the North east
-                                                </option>
-                                                <option value="9">Square</option>
-                                                <option value="8">Rectangle</option>
-                                                <option value="7">Hexagon</option>
-                                                <option value="6">Octagon</option>
-                                                <option value="5">Circular</option>
-                                                <option value="4">Any other shape</option>
-                                                <option value="3">Triangular shape</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">Does your plot have any
-                                                extensions?</label>
-                                            <select id="plot_extension" class="form-select">
-                                                <option value="">Type</option>
-                                                <option value="10">Rectangular or square plot with an extension in North
-                                                    east</option>
-                                                <option value="9">Plot of any shape that has even number of sides and an
-                                                    extension in North east</option>
-                                                <option value="8">Plot of any shape having odd number of sides and an
-                                                    extension in North East</option>
-                                                <option value="7">Plot with Extension in South East</option>
-                                                <option value="6">Plot with extension in North West</option>
-                                                <option value="5">Plot with extension in West</option>
-                                                <option value="4">Plot with Extension in South</option>
-                                                <option value="3">Plot with Extension in South West</option>
-                                            </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label font-weight-bold">What are your plot's surroundings
-                                                like?</label>
-                                            <select id="plot_surrounding" class="form-select">
-                                                <option value="">Surrounding</option>
-                                                <option value="10">There is a water body towards North east</option>
-                                                <option value="9">There is a water body towards East</option>
-                                                <option value="8">There is a water body towards North</option>
-                                                <option value="7">There is a substation of electricity in the South East
-                                                </option>
-                                                <option value="6">There is a substation of electricity in the North West
-                                                </option>
-                                                <option value="5">There is a hill in the South West</option>
-                                                <option value="4">There is a hill in the South</option>
-                                                <option value="3">There is a hill in the West</option>
-                                            </select>
-                                        </div>
-                                    </form>
-                                    <p class="card-text">
-                                        <strong> Your Final Score - </strong>
-                                        Add all the points you've attained to arrive at your Final Score.
-                                        <br />
-                                        <br />
-                                        <b>The total points you earn are rated as following:</b>
-                                        <br />
-                                        <br />
-                                        90 points : Excellent
-                                        <br />
-                                        70-89 points : Very Good
-                                        <br />
-                                        Up to 40 points : Good
-                                    </p>
-                                    <p class="card-text">
-                                        <em>If your score is up to 40 or less, contact a vaastu specialist and get the
-                                            "doshas" fixed immediately. Remember, the solution does not always lie in
-                                            selling the plot; you can get the problems repaired through easy remedies
-                                            prescribed by a consultant who is proficient in vaastu for plots. Good
-                                            luck!</em>
-                                        <br />
-                                    </p>
-                                    <a href="contact.html"><b>Contact us</b></a> <span>if looking for a
-                                        consultant.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings6" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab6">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Stair Case</h4>
-                                    <p class="card-text">A staircase must always be built in the western or southern
-                                        part of the house. Make sure it's not constructed in the northeast corner, as
-                                        that could lead to financial losses for the owner.</p>
-                                    <h6 class="font-weight-bold">Tips According To Vaastu For Staircase
-                                    </h6>
-                                    <ul>
-                                        <li>Always begin your stairs from north to south or east to west. A turn can
-                                            also be taken to other sides, in case there is a lack of space.
-                                        </li>
-                                        <li>Stairs must always have an odd number and the number must never end with a
-                                            zero.</li>
-                                        <li>The vertical set of stairs should also have an odd number and when divided
-                                            by three their remnant must be two.
-                                        </li>
-                                        <li>Never make circular staircases as they have the ability to cause bad health.
-                                            Also, a staircase encircling the building can lead to severe calamites.</li>
-                                        <li>The room which has a staircase in the southwest corner of a basement is not
-                                            auspicious. As per vaastu, people living in a room such as this experience
-                                            high blood pressure, undiagnosed diseases, anemia and the like.</li>
-                                        <li>Construct doors at the end and beginning of each staircase. Also, it's
-                                            important to make sure the stairs don't touch the northern or eastern walls.
-                                        </li>
-                                        <li>Try constructing staircases in such a way that stairs are not openly visible
-                                            to the visitors. Directly visible stairs are thought to be inauspicious.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings7" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab7">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Factory</h4>
-                                    <h6 class="font-weight-bold">Special attention should be paid for the following
-                                        aspects
-                                    </h6>
-                                    <ul>
-                                        <li>The sloping of floors should be towards East, North and North-East, More
-                                            open space should be left in the East and North side.
-                                        </li>
-                                        <li>Building’s height can be equal in all sides, otherwise South and Western
-                                            sides should not be taller in height as compared to East and North.</li>
-                                        <li>Well, bore well, underground reservoir, sink, pools, swimming pools etc.
-                                            should be located in North-East or Eastern zone .
-                                        </li>
-                                        <li>Overhead water tank may be erected in South West, South or West. Its height
-                                            should be more than that of buildings height in North East corner.</li>
-                                        <li>Toilets may be placed in North West or South East.</li>
-                                        <li>Weigh bridge or weighing machines may be placed in North West or Central
-                                            East.</li>
-                                        <li>Parking of heavy vehicles like trucks, tractors, trolleys or cranes etc,
-                                            should be on the roads outside or if it is to be inside, they should be
-                                            parked in South West zone.</li>
-                                        <li>Cycles, scooter, cars, light commercial vehicles can be parked in North
-                                            West, North or East side of buildings.</li>
-                                        <li>Lawns with big avenue trees can be developed on South and West sides.</li>
-                                        <li>Small lawns with fountains etc (without big trees) can be developed in North
-                                            East, North and East also.</li>
-                                        <li>Administrative and other office blocks can be constructed in North, East,
-                                            South or South West keeping the heights of these buildings lower than that
-                                            of main factory.</li>
-                                        <li>Staff quarters may be built on East without touching East wall, in North,
-                                            West or South East. Multi storied flats may be constructed in South zone
-                                            without touching main factory building.</li>
-                                        <li>Staff canteen may be placed in South East.</li>
-                                        <li>Guard Room should be placed near gates in such an advantageous position so
-                                            that the guards can see approaching persons, vehicles etc. without any
-                                            obstruction. North East direction should be avoided for a guard room or
-                                            security cabin. For East facing gate the security office should be on South
-                                            East side of gate, and for North facing gate it should be on North West
-                                            side.</li>
-                                        <li>Time office should be placed near gate for entry for workers but not in the
-                                            South direction.</li>
-                                        <li>Heavy plants and machineries should be erected in West, South and South West
-                                            zones leaving the North West and South East corners.</li>
-                                        <li>Light and auxiliary machines, work equipments and tools can be placed in
-                                            Eastern and Northern sides except in North East, North West and South East
-                                            corners.</li>
-                                        <li>Generator, boilers, ovens, oil fired or electric furnaces, switch gears,
-                                            capacitors, transformers, control panels, smoke chimney etc. all should be
-                                            located in South East.</li>
-                                        <li>Heavy raw materials stores may be placed in South West, South or West.</li>
-                                        <li>Semi processed materials can be stocked in South or West sides.</li>
-                                        <li>Finished goods stores, packing and forwarding can be in North West, in East
-                                            or South East. North West is preferable.</li>
-                                        <li>Maintenance workshop may be in South, South West avoiding North East and
-                                            centre. Maintenance and consumable stores should be nearer to the workshop.
-                                        </li>
-                                        <li>A temple (even a small will do) in the North East corner should be built and
-                                            maintained neat and clean.</li>
-                                        <li>Toilets in the administrative building or in other parts of factory or mill
-                                            should be made in South East or North West area and if septic tank is to be
-                                            built for that purpose, it should be built in between North and North West
-                                            or between East and South East.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings8" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab8">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Office</h4>
-                                    <p class="card-text">Vaastu Shastra is the involvement of various principles in the
-                                        construction of building and the way of living with peace in nature along with
-                                        the environment, by equalizing the natures five elements namely Space, Fire,
-                                        Earth, Water, and Air. Vaastu Shastra can also be referred to as the SCIENCE OF
-                                        DIRECTIONS that integrates all five nature's elements and counterweights with
-                                        man and material.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings9" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab9">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Showrooms</h4>
-                                </div>
-                                <div class="col-12">
-                                    <div class="card-group">
-                                        <div class="card">                                            
-                                            <div class="card-body text-left">
-                                                <h5 class="card-title text-danger font-weight-bold">NW</h5>
-                                                <ul>
-                                                    <li>Display</li>
-                                                    <li>Marketing Department</li>
-                                                    <li>Communication items</li>
-                                                    <li>Telephone etc.</li>
-                                                    <li>Computer room</li>
-                                                    <li>Toilet</li>
-                                                    <li>Ready Goods</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <h5 class="card-title text-danger text-center font-weight-bold">N</h5>
-                                                <ul class="text-left">
-                                                    <li>Basement</li>
-                                                    <li>Entrance</li>
-                                                    <li>Accounts Department</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <h5 class="card-title text-danger text-end font-weight-bold">NE</h5>
-                                                <ul class="text-left">
-                                                    <li>Waiting Room</li>
-                                                    <li>Reception</li>
-                                                    <li>Basement</li>
-                                                    <li>Temple</li>
-                                                    <li>Entrance and place more windows</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Kitchen</h4>
+                                        <p class="card-text">The ideal direction for a kitchen is the Southeastern corner of
+                                            a house. The second best choice is the Northwest of a house.
+                                        </p>
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Type</th>
+                                                    <th>Best Direction</th>
+                                                    <th>Pointer</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Entry door</td>
+                                                    <td>North, East, or West</td>
+                                                    <td>The kitchen door must not be in any of the corners.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gas Cylinder</td>
+                                                    <td>Southeast</td>
+                                                    <td>Empty cylinders should be kept in the southwestern direction</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Cooking Gas</td>
+                                                    <td>Southeast Corner</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Gas stove must be a few inches away from the wall.</li>
+                                                            <li>It must never be in front of the main door.</li>
+                                                            <li>It should be placed in a way that the cook faces east when
+                                                                cooking.</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Refrigerator</td>
+                                                    <td>Southeast, South, North or West</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Refrigerator must never be in Northeastern direction.</li>
+                                                            <li>If the refrigerator is placed in the southwestern direction,
+                                                                it must
+                                                                be a feet away from the corner.</li>
+                                                        </ul>
+                                                </tr>
+                                                <tr>
+                                                    <td>Equipments(e.g.Heaters, Conventional ovens, Microwaves, ovens)</td>
+                                                    <td>Southeast or South</td>
+                                                    <td>Equipments must never be kept in the northeast portion.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Storing Racks</td>
+                                                    <td>Western or Southern wall</td>
+                                                    <td>Commodities such as, grain, pulses, and spices, must be stored in
+                                                        the west or south.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sink</td>
+                                                    <td>North-East corner</td>
+                                                    <td>The water source such as, water filter or pitcher, should be kept in
+                                                        the northeast.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Windows and Exhaust fan</td>
+                                                    <td>East direction</td>
+                                                    <td>The bigger windows should always be constructed in the eastern
+                                                        direction, while smaller ones must be towards south.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Clocks</td>
+                                                    <td>South or Southwest Wall</td>
+                                                    <td>------</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                    <div class="card-group">
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <h5 class="card-title text-danger text-start font-weight-bold">W</h5>
-                                                <ul class="text-left">
-                                                    <li>Show case</li>
-                                                    <li>Exhibits</li>
-                                                    <li>Toilet</li>
-                                                    <li>Storage</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="card text-center justify-content-center align-self-center">                                            
-                                            <div class="card-body">
-                                                <h5 class="card-title text-success font-weight-bold align-middle">Brahma Sthan Free and Open Space	
-                                                </h5>                                                
-                                            </div>
-                                        </div>
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <h5 class="card-title text-danger text-end font-weight-bold">E</h5>
-                                                <ul class="text-left">
-                                                    <li>Ideal for Entrance</li>
-                                                    <li>Salesman facing east or north</li>
-                                                    <li>Admin Department</li>
-                                                    <li>Basement</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-group">
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li>Should be kept high & Heavy</li>
-                                                    <li>Ideal place for Chief of Organisation/showroom</li>
-                                                    <li>Important Documents</li>                                                    
-                                                </ul>
-                                                <h5 class="card-title text-danger text-start font-weight-bold">SW</h5>
-                                            </div>
-                                        </div>
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li>Place for Heavy Storage</li>
-                                                    <li>Place for Deputy in charge</li>                                                   
-                                                </ul>
-                                                <h5 class="card-title text-danger text-center font-weight-bold">S</h5>
-                                            </div>
-                                        </div>
-                                        <div class="card">                                            
-                                            <div class="card-body">
-                                                <ul>
-                                                    <li>Place for Electricity, gadgets</li>
-                                                    <li>Purchase Department</li>                                                   
-                                                </ul>
-                                                <h5 class="card-title text-danger text-end font-weight-bold">SE</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <p class="card-text">
-                                        <small>“Not withstanding this, in spite of our confidence in the veracity of the statements made herein, we strongly urge you to consult a competent vastu consultant for all of your specific vastu needs. As such any independent decisions taken solely on the basis of the website are entirely at your own risk and cost. Vasstu Vigyan in totality as an organisation or as a person will not be responsible for any consequences thereof nor we shall be accountable for your own interpretations.”
-                                        </small>
-                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings10" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab10">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Vaastu for Apartments</h4>
-                                    <p class="card-text">Be it home or office, Factory or a commercial block, Office or apartment, Plot or a layout Vaastu Shastra is known to reward the follower the benefits and protection from ill effects in Life. Vaastu Shastra is a rational science like any other science, based on cause and effects.</p>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Drawing Room</h4>
+                                        <p class="card-text">The perfect location of a drawing room is essentially based on
+                                            the direction your house faces, a drawing room can be in the central west,
+                                            central east, and central south or central north of a house.
+                                        </p>
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Accessories</th>
+                                                    <th>Best Direction As Per Vaastu</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Telephone</td>
+                                                    <td>Southwast</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Electrical Appliances</td>
+                                                    <td>Southeast</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Furniture</td>
+                                                    <td>Southern And Western Corners</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Showcase and Almirah</td>
+                                                    <td>Southwest Corner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Cooler or A.C</td>
+                                                    <td>West or North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pictures depicting water bodies, Water Fountains, Aquariums</td>
+                                                    <td>North to East Area</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Chandelier</td>
+                                                    <td>A little towards the west, never at the centre</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Door</td>
+                                                    <td>East or North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Window</td>
+                                                    <td>East or North</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p class="card-text">You can buy carpets and rugs for your living room in colours
+                                            pertaining to the direction you want to use them in:
+                                            Placement Of Carpets And Rugs According To Vaastu For Drawing Room.</p>
+    
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Planet</th>
+                                                    <th>Direction</th>
+                                                    <th>Colour</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>North</td>
+                                                    <td>North</td>
+                                                    <td>Yellow</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mercury</td>
+                                                    <td>Northeast</td>
+                                                    <td>Green</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Moon</td>
+                                                    <td>Northwest</td>
+                                                    <td>Copper, White, Red</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Venus</td>
+                                                    <td>Southeast</td>
+                                                    <td>Rainbow Colors</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mars</td>
+                                                    <td>South</td>
+                                                    <td>Dull or Pastel colors of Blue</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rahu</td>
+                                                    <td>Southwest</td>
+                                                    <td>Blue or Black</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturn</td>
+                                                    <td>South</td>
+                                                    <td>Red</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sun</td>
+                                                    <td>East</td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h5>Consult our expert for Seating Arrangement In The Living Room
+                                        </h5>
+                                        <ul>
+                                            <li>The furniture in the room must be rectangular or square.</li>
+                                            <li>Rectangle, square and round shapes are apt for the center table.</li>
+                                            <li>Make sure the furniture is a few inches away from the wall (it must not
+                                                touch the wall)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Pooja Room</h4>
+                                        <p class="card-text">Get close to God and declare your eternal love for him by
+                                            creating a haven of serenity, love and tranquility in your house. Beautiful
+                                            Pujaghars created according to vaastu can help the deity's shine their guiding
+                                            light on every area of our being and help us live a happy, positive and
+                                            prosperous life. The best corner for a pooja room in a house is North-east.
+                                            Apart from this, you can also opt for directions such as North and East for
+                                            constructing a holy place.
+                                        </p>
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Objects Inside A Pooja Room</th>
+                                                    <th>Best Direction</th>
+                                                    <th>Advice</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Lamp stand or up-lighter</td>
+                                                    <td>South-East Corner</td>
+                                                    <td>A lamp according to vaastu for pooja room should always be right in
+                                                        front of the Idols.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Almirah or show-case</td>
+                                                    <td>Southern or Western Wall</td>
+                                                    <td>Should be lower than the idols</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Idols</td>
+                                                    <td>East or West</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Height of the idols must not be less than 2" and more than
+                                                                9".</li>
+                                                            <li>Holy idols must never face south or north.</li>
+                                                            <li>The idols must not be placed right in front of the entry.
+                                                            </li>
+                                                            <li>The idols must never face each other</li>
+                                                            <li>There should never be 2 idols of the same God in the room
+                                                            </li>
+                                                            <li>Idols must be an inch away from the walls"</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Doors and windows</td>
+                                                    <td>North or East</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>According to vaastu for windows and doors, puja room doors
+                                                                must
+                                                                always have two shutters</li>
+                                                            <li>There should be no door closer</li>
+                                                            <li>Doors must not open or close automatically</li>
+                                                            <li>They must not be made of material such as iron or tin.</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Homekund or Agnikund</td>
+                                                    <td>South-East direction</td>
+                                                    <td>The offerings to the fire must always be made with the person's face
+                                                        towards east.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mezzanine protruding out of the worship room</td>
+                                                    <td>West or South</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Water body</td>
+                                                    <td>North or East</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Puja Samigri</td>
+                                                    <td>South East</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Alter</td>
+                                                    <td>North-East</td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+    
+                                        <h5>Worshipping The Dieties
+                                        </h5>
+                                        <ul>
+                                            <li>The members of the house should face east or north while worshipping.</li>
+                                            <li>People must never draw triangular patterns of Gods in the Pujaghar.</li>
+                                            <li>Uninterrupted chanting of the gods is very auspicious; it can be done by
+                                                playing a cassette inside the pooja room.</li>
+                                            <li>One must never enter a pooja room without taking bath.</li>
+                                        </ul>
+                                        <h5>Things To Avoid According To Vaastu For Pooja Room
+                                        </h5>
+                                        <ul>
+                                            <li>Pujaghar must never be in the bedroom.</li>
+                                            <li>A Puja room must never be in the southern direction.</li>
+                                            <li>There should be no toilet above, below or adjacent to the worship room.</li>
+                                            <li>The Idols brought in the despoiled form from temples must never be kept in
+                                                the pooja room.</li>
+                                            <li>No idol in the pujagjar must be in a desecrated form.</li>
+                                            <li>No heavy articles should be hoarded in the pooja room.</li>
+                                            <li>Valuable items such as jewelry or money must never be kept hidden inside the
+                                                worship room.</li>
+                                            <li>The worship room must not be made above gas stoves or electrical appliances.
+                                            </li>
+                                            <li>As also mentioned in Vaastu for garden, Tulsi (Basil Plant) must be planted
+                                                in the house.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab1">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Bathroom</h4>
+                                        <p class="card-text">A bathroom is, hands down, one of the most important rooms in a
+                                            pad. However, most people are completely ignorant of the intricate rules that
+                                            govern this particular space. Putting in a humble amount of effort to rebuild a
+                                            lavatory according to vaastu for bathroom will reap several rewards for you, and
+                                            may even make it your new sanctuary, after the bedroom!
+                                        </p>
+                                        <p class="card-text">
+                                            Call us for write to us for the most appropriate location for constructing a
+                                            bathroom.
+                                        </p>
+                                        <h6 class="font-weight-bold">Auspicious Directions For Various Bathroom Accessories
+                                        </h6>
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Accessories</th>
+                                                    <th>Direction</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Mirror</td>
+                                                    <td>North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Taps and showers</td>
+                                                    <td>North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Toilet</td>
+                                                    <td>West or Northwest (a couple of feet above the ground)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Geyser, switchboard, other electrical equipments</td>
+                                                    <td>Southeast corner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Southeast</td>
+                                                    <td>corner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bathtub</td>
+                                                    <td>West</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sink</td>
+                                                    <td>North , East or Northeast</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Overhead tank</td>
+                                                    <td>Northwest</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Drainage system</td>
+                                                    <td>Northeast</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Windows or ventilators</td>
+                                                    <td>East or the north</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Changing room</td>
+                                                    <td>South or West</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Door</td>
+                                                    <td>East</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Window</td>
+                                                    <td>East or North</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p class="card-text font-weight-bold">Consult our Vaastu Expert for Auspicious
+                                            Colors For The Bathroom.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab2">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Septick Tank</h4>
+                                        <p class="card-text">The evolutionary transition of our society from 'traditional'
+                                            to 'modern' has led to some drastic changes in house structures and designing.
+                                            One of such changes is the invention of septic tanks. Septic tanks are
+                                            economical, environmentally friendly and effective private sewage treatment
+                                            plants. However, like every other component of a house structure, they too must
+                                            be built according to vaastu for septic tank.
+                                        </p>
+                                        <p class="card-text">
+                                            Call us for write to us for the most appropriate location for constructing a
+                                            bathroom.
+                                        </p>
+                                        <h6 class="font-weight-bold">Tips
+                                        </h6>
+                                        <ul>
+                                            <li>Septic tank must never face north east, south-east, or south west corner.
+                                            </li>
+                                            <li>It should not directly touch the compound wall. In fact the tank must be at
+                                                least two feet away from the wall.</li>
+                                            <li>If there is a scarcity of space, the tank must be in the northern corner of
+                                                west. However, make sure that the tank is at least two feet away from the
+                                                wall of your compound.</li>
+                                            <li>As per vaastu for septic tank, the length of the tank must be in the
+                                                east-west, while the breadth should be in the south-north.</li>
+                                        </ul>
+                                        <h6 class="font-weight-bold">Things To Keep In Mind</h6>
+                                        <ul>
+                                            <li>You should never have outlets in the south. However, in case the vent is in
+                                                the southern direction it must be turned to north or east.</li>
+                                            <li>Bathroom and kitchen pipes must have their outlets in the north or east
+                                                direction.</li>
+                                            <li>The bathroom pipes and toilet pipes must be diverted to the north-west or
+                                                west direction.</li>
+                                            <li>The gutter can be in any other direction except for south.</li>
+                                            <li>Pipes that come from the upper floor must never be in the south-west corner.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab3">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Garage</h4>
+                                        <ul>
+                                            <li>The garage must always be built in the southeast or northwest of a house.
+                                            </li>
+                                            <li>When designing a garage make sure at least three feet of walking space is
+                                                left inside after the car is parked. This ensures free movement of air and
+                                                light.</li>
+                                            <li>The car shed must never touch the compound wall or building.</li>
+                                            <li>Preferably, the garage gate should face east or north. It is important to
+                                                make sure that the height of the gate is not more than the height of the
+                                                main gate of the house (affixed at the compound wall). Also, the gate must
+                                                open freely, without any obstruction.</li>
+                                            <li>Trash or inflammable material must never be stored inside a garage.</li>
+                                            <li>The floor in the garage should slope towards the eastern or northern
+                                                direction.</li>
+                                        </ul>
+                                        <h6 class="font-weight-bold">Car Parking</h6>
+                                        <ul>
+                                            <li>If you place your car in the west side of a northwest located garage, you
+                                                will undergo a lot of traveling.</li>
+                                            <li>If a car is parked in the southwestern corner, it will require slight repair
+                                                work on a regular basis.</li>
+                                            <li>Never park a car in the northeastern direction. This is because northeast is
+                                                where the heavenly forces flow; a parked car would block these forces.
+                                                However, at the same time, if the garage is in the basement, parking in the
+                                                northeastern side is permitted.</li>
+                                            <li>A garage located in the southwest would mean rare usage of the vehicle and
+                                                constant repairing.</li>
+                                            <li>When parking, always park the vehicle with its front facing east or north.
+                                                This will guarantee that the vehicle would never get worked up.</li>
+                                            <li>If you park the car facing west or south side, possibilities are that the
+                                                car will face fire hazards.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab4">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Doors and Windows</h4>
+                                        <p class="card-text">
+                                            The smallest of articles can make a huge difference in the way your luck runs
+                                            for you. Doors and windows are not merely passages for insulation or for people
+                                            to enter but are also gateways for positive and negative energies to come into
+                                            the house. If a window is designed incorrectly in the wrong direction, it can
+                                            pave way for the negative energies to come in and spell disaster for the
+                                            inhabitants. Conversely, if the doors and windows are constructed in the right
+                                            direction, they can bring in a lot of prosperity and luck.
+                                        </p>
+                                        <p class="card-text">This is also agreed to by Braunth Sanhita, which in one excerpt
+                                            says-
+                                        </p>
+                                        <p class="card-text">
+                                            <b>“Mool Dwaaram Naanayyarabhisanthathi Roopdurya, Gatpal Patra Pramathibhishch
+                                                Thanmadulau shrich nuyath”</b>
+                                            <br />
+                                            <b>Translation:</b> The main door of a residence must be bigger than any other
+                                            door in the house. Also, it must be more beautiful compared to the others. This
+                                            helps bring in luck and prosperity.
+                                        </p>
+                                        <p class="card-text">Here are a few tips which need to be kept in mind when
+                                            designing the doors and windows according to vaastu for house:
+                                        </p>
+                                        <ul>
+                                            <li>According to vaastu for house structure, a house must at all times have even
+                                                numbers of windows and doors (e.g. 2, 4, 6, 8, etc).</li>
+                                            <li>When fixing the windows and doors, it is important to keep cross-ventilation
+                                                in mind. Also, it’s essential to fix windows and doors opposite to one
+                                                another to allow more light and air to enter.</li>
+                                            <li>Doors must never be placed at the center of a wall.</li>
+                                            <li>South facing houses must have north facing entrances so that they fall at
+                                                the eastern half.</li>
+                                            <li>North facing houses must have north facing entrances so that they fall at
+                                                the eastern half of the side.</li>
+                                            <li>West facing houses must have their entrance towards West, to make sure the
+                                                main door falls at the Northern half of the side.</li>
+                                            <li>The entrance for east facing houses must be fixed towards East, to make sure
+                                                the main door falls towards the Northern half of the side.</li>
+                                            <li>The main gates of two houses facing each other must never open towards each
+                                                other. Doors such as these are very inauspicious.</li>
+                                            <li>Teak is the best wood for making doors and windows.</li>
+                                            <li>Square or uneven furnishing articles must be avoided.</li>
+                                            <li>All the windows must have symmetry and must be proportionate in height.</li>
+                                            <li>There must be absolutely no obstruction, such as plants, Temple, staircases,
+                                                and the like, in front of the main entrance.</li>
+                                            <li>Construct doors in the beginning and end of a staircase. For detailed
+                                                information on this topic visit vaastu for staircase.</li>
+                                        </ul>
+    
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                                <tr class="text-center">
+                                                    <th>Starting sound of a person's Name</th>
+                                                    <th>Main door's Direction</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>A, I, O, U</td>
+                                                    <td>North or West</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ka, Gh</td>
+                                                    <td>North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ch, Ja</td>
+                                                    <td>North or West</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ta, Da</td>
+                                                    <td>West</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tha, Dha, Na</td>
+                                                    <td>East or North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pa, Pha, Ba, Bha, Ma</td>
+                                                    <td>North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ya, Ra, La, Va</td>
+                                                    <td>South or North</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sa, Sha, Ha</td>
+                                                    <td>East</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p class="card-text">Doorway constructed at the eastern direction is very
+                                            auspicious. However, you can also construct entrances in the western and
+                                            northern side. An entry in the southern direction is not suitable.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab5">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Plot</h4>
+                                        <hr />
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">What side does your plot
+                                                    face?</label>
+                                                <select class="form-select">
+                                                    <option value="">Direction</option>
+                                                    <option value="10">East</option>
+                                                    <option value="9">North-East</option>
+                                                    <option value="8">North</option>
+                                                    <option value="7">North-West</option>
+                                                    <option value="6">South-West</option>
+                                                    <option value="5">West</option>
+                                                    <option value="4">South</option>
+                                                    <option value="3">South_East</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Does the plot have spearing
+                                                    roads/ streets/ lanes?</label>
+                                                <select class="form-select">
+                                                    <option value="">Spearing roads in Direction</option>
+                                                    <option value="10">North East or East</option>
+                                                    <option value="9">North East or North</option>
+                                                    <option value="8">North West or West</option>
+                                                    <option value="7">South East or South</option>
+                                                    <option value="6">South East or East</option>
+                                                    <option value="5">North West or North</option>
+                                                    <option value="4">South West</option>
+                                                    <option value="3">South West and South</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Which is the soil quality
+                                                    like?</label>
+                                                <select id="soil" class="form-select">
+                                                    <option value="">Soil Quality</option>
+                                                    <option value="10">Pleasant smelling, Yellowish red soil</option>
+                                                    <option value="9">Pleasant smelling, Reddish soil</option>
+                                                    <option value="8">Pleasant smelling, Yellowish soil</option>
+                                                    <option value="7">Rocky land with pleasant surroundings</option>
+                                                    <option value="6">Sandy land with pleasant surroundings</option>
+                                                    <option value="5">Sandy land with foul odor</option>
+                                                    <option value="4">Rocky land with foul odor</option>
+                                                    <option value="3">Marshy and Black soil</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Which side is your plot sloping
+                                                    towards?</label>
+                                                <select id="side_direction" class="form-select">
+                                                    <option value="">Side</option>
+                                                    <option value="10">North-East</option>
+                                                    <option value="9">East</option>
+                                                    <option value="8">North</option>
+                                                    <option value="7">North-West</option>
+                                                    <option value="6">South-East</option>
+                                                    <option value="5">South</option>
+                                                    <option value="4">West</option>
+                                                    <option value="3">South-West</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Which side is your plot raised
+                                                    towards?</label>
+                                                <select id="slope" class="form-select">
+                                                    <option value="">Direction</option>
+                                                    <option value="10">South west</option>
+                                                    <option value="9">West</option>
+                                                    <option value="8">South</option>
+                                                    <option value="7">South east</option>
+                                                    <option value="6">North West</option>
+                                                    <option value="5">North</option>
+                                                    <option value="4">East</option>
+                                                    <option value="3">North east</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">With respect to the Earth's
+                                                    Magnetic Axis, what is the angle of the plot's tilt?</label>
+                                                <select id="plot_angle" class="form-select">
+                                                    <option value="">Angle</option>
+                                                    <option value="10">Zero to Five</option>
+                                                    <option value="9">Five to Ten</option>
+                                                    <option value="8">Ten to Fifteen</option>
+                                                    <option value="7">Fifteen to Twenty</option>
+                                                    <option value="6">Twenty to Twenty five</option>
+                                                    <option value="5">Twenty five to Thirty</option>
+                                                    <option value="4">Thirty to Thirty five</option>
+                                                    <option value="3">Thirty five to Forty</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Which shape does your plot
+                                                    have?</label>
+                                                <select id="plot_shape" class="form-select">
+                                                    <option value="">Shape</option>
+                                                    <option value="10">Square shape with extension at the North east
+                                                    </option>
+                                                    <option value="9">Square</option>
+                                                    <option value="8">Rectangle</option>
+                                                    <option value="7">Hexagon</option>
+                                                    <option value="6">Octagon</option>
+                                                    <option value="5">Circular</option>
+                                                    <option value="4">Any other shape</option>
+                                                    <option value="3">Triangular shape</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">Does your plot have any
+                                                    extensions?</label>
+                                                <select id="plot_extension" class="form-select">
+                                                    <option value="">Type</option>
+                                                    <option value="10">Rectangular or square plot with an extension in North
+                                                        east</option>
+                                                    <option value="9">Plot of any shape that has even number of sides and an
+                                                        extension in North east</option>
+                                                    <option value="8">Plot of any shape having odd number of sides and an
+                                                        extension in North East</option>
+                                                    <option value="7">Plot with Extension in South East</option>
+                                                    <option value="6">Plot with extension in North West</option>
+                                                    <option value="5">Plot with extension in West</option>
+                                                    <option value="4">Plot with Extension in South</option>
+                                                    <option value="3">Plot with Extension in South West</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label font-weight-bold">What are your plot's surroundings
+                                                    like?</label>
+                                                <select id="plot_surrounding" class="form-select">
+                                                    <option value="">Surrounding</option>
+                                                    <option value="10">There is a water body towards North east</option>
+                                                    <option value="9">There is a water body towards East</option>
+                                                    <option value="8">There is a water body towards North</option>
+                                                    <option value="7">There is a substation of electricity in the South East
+                                                    </option>
+                                                    <option value="6">There is a substation of electricity in the North West
+                                                    </option>
+                                                    <option value="5">There is a hill in the South West</option>
+                                                    <option value="4">There is a hill in the South</option>
+                                                    <option value="3">There is a hill in the West</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                        <p class="card-text">
+                                            <strong> Your Final Score - </strong>
+                                            Add all the points you've attained to arrive at your Final Score.
+                                            <br />
+                                            <br />
+                                            <b>The total points you earn are rated as following:</b>
+                                            <br />
+                                            <br />
+                                            90 points : Excellent
+                                            <br />
+                                            70-89 points : Very Good
+                                            <br />
+                                            Up to 40 points : Good
+                                        </p>
+                                        <p class="card-text">
+                                            <em>If your score is up to 40 or less, contact a vaastu specialist and get the
+                                                "doshas" fixed immediately. Remember, the solution does not always lie in
+                                                selling the plot; you can get the problems repaired through easy remedies
+                                                prescribed by a consultant who is proficient in vaastu for plots. Good
+                                                luck!</em>
+                                            <br />
+                                        </p>
+                                        <a href="contact.html"><b>Contact us</b></a> <span>if looking for a
+                                            consultant.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings6" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab6">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Stair Case</h4>
+                                        <p class="card-text">A staircase must always be built in the western or southern
+                                            part of the house. Make sure it's not constructed in the northeast corner, as
+                                            that could lead to financial losses for the owner.</p>
+                                        <h6 class="font-weight-bold">Tips According To Vaastu For Staircase
+                                        </h6>
+                                        <ul>
+                                            <li>Always begin your stairs from north to south or east to west. A turn can
+                                                also be taken to other sides, in case there is a lack of space.
+                                            </li>
+                                            <li>Stairs must always have an odd number and the number must never end with a
+                                                zero.</li>
+                                            <li>The vertical set of stairs should also have an odd number and when divided
+                                                by three their remnant must be two.
+                                            </li>
+                                            <li>Never make circular staircases as they have the ability to cause bad health.
+                                                Also, a staircase encircling the building can lead to severe calamites.</li>
+                                            <li>The room which has a staircase in the southwest corner of a basement is not
+                                                auspicious. As per vaastu, people living in a room such as this experience
+                                                high blood pressure, undiagnosed diseases, anemia and the like.</li>
+                                            <li>Construct doors at the end and beginning of each staircase. Also, it's
+                                                important to make sure the stairs don't touch the northern or eastern walls.
+                                            </li>
+                                            <li>Try constructing staircases in such a way that stairs are not openly visible
+                                                to the visitors. Directly visible stairs are thought to be inauspicious.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings7" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab7">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Factory</h4>
+                                        <h6 class="font-weight-bold">Special attention should be paid for the following
+                                            aspects
+                                        </h6>
+                                        <ul>
+                                            <li>The sloping of floors should be towards East, North and North-East, More
+                                                open space should be left in the East and North side.
+                                            </li>
+                                            <li>Building’s height can be equal in all sides, otherwise South and Western
+                                                sides should not be taller in height as compared to East and North.</li>
+                                            <li>Well, bore well, underground reservoir, sink, pools, swimming pools etc.
+                                                should be located in North-East or Eastern zone .
+                                            </li>
+                                            <li>Overhead water tank may be erected in South West, South or West. Its height
+                                                should be more than that of buildings height in North East corner.</li>
+                                            <li>Toilets may be placed in North West or South East.</li>
+                                            <li>Weigh bridge or weighing machines may be placed in North West or Central
+                                                East.</li>
+                                            <li>Parking of heavy vehicles like trucks, tractors, trolleys or cranes etc,
+                                                should be on the roads outside or if it is to be inside, they should be
+                                                parked in South West zone.</li>
+                                            <li>Cycles, scooter, cars, light commercial vehicles can be parked in North
+                                                West, North or East side of buildings.</li>
+                                            <li>Lawns with big avenue trees can be developed on South and West sides.</li>
+                                            <li>Small lawns with fountains etc (without big trees) can be developed in North
+                                                East, North and East also.</li>
+                                            <li>Administrative and other office blocks can be constructed in North, East,
+                                                South or South West keeping the heights of these buildings lower than that
+                                                of main factory.</li>
+                                            <li>Staff quarters may be built on East without touching East wall, in North,
+                                                West or South East. Multi storied flats may be constructed in South zone
+                                                without touching main factory building.</li>
+                                            <li>Staff canteen may be placed in South East.</li>
+                                            <li>Guard Room should be placed near gates in such an advantageous position so
+                                                that the guards can see approaching persons, vehicles etc. without any
+                                                obstruction. North East direction should be avoided for a guard room or
+                                                security cabin. For East facing gate the security office should be on South
+                                                East side of gate, and for North facing gate it should be on North West
+                                                side.</li>
+                                            <li>Time office should be placed near gate for entry for workers but not in the
+                                                South direction.</li>
+                                            <li>Heavy plants and machineries should be erected in West, South and South West
+                                                zones leaving the North West and South East corners.</li>
+                                            <li>Light and auxiliary machines, work equipments and tools can be placed in
+                                                Eastern and Northern sides except in North East, North West and South East
+                                                corners.</li>
+                                            <li>Generator, boilers, ovens, oil fired or electric furnaces, switch gears,
+                                                capacitors, transformers, control panels, smoke chimney etc. all should be
+                                                located in South East.</li>
+                                            <li>Heavy raw materials stores may be placed in South West, South or West.</li>
+                                            <li>Semi processed materials can be stocked in South or West sides.</li>
+                                            <li>Finished goods stores, packing and forwarding can be in North West, in East
+                                                or South East. North West is preferable.</li>
+                                            <li>Maintenance workshop may be in South, South West avoiding North East and
+                                                centre. Maintenance and consumable stores should be nearer to the workshop.
+                                            </li>
+                                            <li>A temple (even a small will do) in the North East corner should be built and
+                                                maintained neat and clean.</li>
+                                            <li>Toilets in the administrative building or in other parts of factory or mill
+                                                should be made in South East or North West area and if septic tank is to be
+                                                built for that purpose, it should be built in between North and North West
+                                                or between East and South East.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings8" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab8">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Office</h4>
+                                        <p class="card-text">Vaastu Shastra is the involvement of various principles in the
+                                            construction of building and the way of living with peace in nature along with
+                                            the environment, by equalizing the natures five elements namely Space, Fire,
+                                            Earth, Water, and Air. Vaastu Shastra can also be referred to as the SCIENCE OF
+                                            DIRECTIONS that integrates all five nature's elements and counterweights with
+                                            man and material.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings9" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab9">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Showrooms</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card-group">
+                                            <div class="card">                                            
+                                                <div class="card-body text-left">
+                                                    <h5 class="card-title text-danger font-weight-bold">NW</h5>
+                                                    <ul>
+                                                        <li>Display</li>
+                                                        <li>Marketing Department</li>
+                                                        <li>Communication items</li>
+                                                        <li>Telephone etc.</li>
+                                                        <li>Computer room</li>
+                                                        <li>Toilet</li>
+                                                        <li>Ready Goods</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-danger text-center font-weight-bold">N</h5>
+                                                    <ul class="text-left">
+                                                        <li>Basement</li>
+                                                        <li>Entrance</li>
+                                                        <li>Accounts Department</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-danger text-end font-weight-bold">NE</h5>
+                                                    <ul class="text-left">
+                                                        <li>Waiting Room</li>
+                                                        <li>Reception</li>
+                                                        <li>Basement</li>
+                                                        <li>Temple</li>
+                                                        <li>Entrance and place more windows</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-group">
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-danger text-start font-weight-bold">W</h5>
+                                                    <ul class="text-left">
+                                                        <li>Show case</li>
+                                                        <li>Exhibits</li>
+                                                        <li>Toilet</li>
+                                                        <li>Storage</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card text-center justify-content-center align-self-center">                                            
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-success font-weight-bold align-middle">Brahma Sthan Free and Open Space	
+                                                    </h5>                                                
+                                                </div>
+                                            </div>
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-danger text-end font-weight-bold">E</h5>
+                                                    <ul class="text-left">
+                                                        <li>Ideal for Entrance</li>
+                                                        <li>Salesman facing east or north</li>
+                                                        <li>Admin Department</li>
+                                                        <li>Basement</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-group">
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <ul>
+                                                        <li>Should be kept high & Heavy</li>
+                                                        <li>Ideal place for Chief of Organisation/showroom</li>
+                                                        <li>Important Documents</li>                                                    
+                                                    </ul>
+                                                    <h5 class="card-title text-danger text-start font-weight-bold">SW</h5>
+                                                </div>
+                                            </div>
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <ul>
+                                                        <li>Place for Heavy Storage</li>
+                                                        <li>Place for Deputy in charge</li>                                                   
+                                                    </ul>
+                                                    <h5 class="card-title text-danger text-center font-weight-bold">S</h5>
+                                                </div>
+                                            </div>
+                                            <div class="card">                                            
+                                                <div class="card-body">
+                                                    <ul>
+                                                        <li>Place for Electricity, gadgets</li>
+                                                        <li>Purchase Department</li>                                                   
+                                                    </ul>
+                                                    <h5 class="card-title text-danger text-end font-weight-bold">SE</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <p class="card-text">
+                                            <small>“Not withstanding this, in spite of our confidence in the veracity of the statements made herein, we strongly urge you to consult a competent vastu consultant for all of your specific vastu needs. As such any independent decisions taken solely on the basis of the website are entirely at your own risk and cost. Vasstu Vigyan in totality as an organisation or as a person will not be responsible for any consequences thereof nor we shall be accountable for your own interpretations.”
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="tab-pane fade" id="v-pills-settings10" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab10">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Vaastu for Apartments</h4>
+                                        <p class="card-text">Be it home or office, Factory or a commercial block, Office or apartment, Plot or a layout Vaastu Shastra is known to reward the follower the benefits and protection from ill effects in Life. Vaastu Shastra is a rational science like any other science, based on cause and effects.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1223,30 +1268,92 @@
             </div>
         </div>
     </div>
+    <!-- Service End -->    
+        
 
-    <!-- Footer -->
-    <footer class="pt-2 pb-1 bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h6 class="mb-4 text-white text-center">All Rights Reserved | Copyright 2016 © Vaastu Vigyan</h6>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>HSR Extension, Reliable Tranquil Layout, Bengaluru, Karnataka 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9591405555</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>consult@vaastuvigyan.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="vaastutips.html">Vaastu Tips</a>
+                    <a class="btn btn-link" href="vaastugyan.html">Vaastu Gyan</a>
+                    <a class="btn btn-link" href="benefits.html">Benefits</a>
+                    <a class="btn btn-link" href="consultation.html">Consultation</a>
+                </div> -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Sri Kamal</h4>
+                    <p>Sri Kamal is a Vaastu Expert, Reiki Grand Master, Astro Numerologist and Philanthropist is renewed Occultist and a person of Diversified Interests.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="index.html">Blog</a>
+                    <a class="btn btn-link" href="index.html">Testimonials</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
-    </footer>
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container"> </div>
-    </footer>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/style.min.js"></script>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Vaastu Vigyan</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">larks.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -3,179 +3,224 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Vaastu Vigyan</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>Woody - Carpenter Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- top bar -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7"><span class="icon-phone"></span>&nbsp;Questions? &nbsp;Call us: <strong>+91
-                        9591405555</strong> <i class="fas fa-envelope"></i> Mail:
-                    <strong>consult@vaastuvigyan.com</strong>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-envelope text-primary me-2"></small>
+                    <small>consult@vaastuvigyan.com</small>
                 </div>
-                <div class="col-md-5 float-right">
-                    <a href="about.html" class="text-white">About us</a> |
-                    <a href="testimonial.html" class="text-white">Testimonials</a> |
-                    <a href="index.html" class="text-white">Blog</a> |
-                    <a href="contact.html" class="text-white">Contact us</a>
-                    <span class="d-inline-block pl-5"><a href="https://www.facebook.com/raajVastuVigyan/?fref=ts"
-                            target="_blank"><i class="fab fa-facebook"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://twitter.com/vvigyan" target="_blank"><i
-                                class="fab fa-twitter"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://www.youtube.com/watch?v=90AjIWUSId4"
-                            target="_blank"><i class="fab fa-youtube"></i></a></span>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div> -->
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 9591405555</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.facebook.com/raajVastuVigyan/?fref=ts"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/vvigyan"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.youtube.com/watch?v=90AjIWUSId4"><i class="fab fa-youtube"></i></a>
+                    <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="images/logo.jpeg" class="img-fluid"
-                    style="height: 60px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastutips.html">Vaastu Tips</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastugyan.html">Vaastu Gyan</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="benefits.html">Benefits</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="consultation.html">Consultation</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="navratans.html">Nav Ratans</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="geopathicstress.html">Geopathic
-                            Strss</a> </li>
-                    <li class="nav-item"> <a class="nav-link active" href="dowsing.html">Dowsing</a> </li>
-                </ul>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.jpeg" class="img-fluid" style="height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="vaastutips.html" class="nav-item nav-link">Vaastu Tips</a>
+                <a href="vaastugyan.html" class="nav-item nav-link">Vaastu Gyan</a>
+                <a href="benefits.html" class="nav-item nav-link">Benefits</a>
+                <a href="consultation.html" class="nav-item nav-link">Consultation</a>
+                <a href="navratans.html" class="nav-item nav-link">Nav Ratans</a>
+                <a href="geopathicstress.html" class="nav-item nav-link">Geopathic Stress</a>
+                <a href="dowsing.html" class="nav-item nav-link active">Dowsing</a>
             </div>
+            <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
-    <!-- Header -->
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-3 col-xs-12 mb-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                        aria-selected="true">Dowsing</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">Human Aura</button>
-                </div>
-            </div>
-            <div class="col-lg-9 col-xs-12">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Dowsing</h4>
-                                    <img src="https://web.archive.org/web/20220119170217im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/dowsing.jpg?resize=413%2C291&ssl=1" class="img-fluid mx-auto d-block" />
-                                    <p class="card-text">Dowsing is an art that involves the use of instrument and tools in order to make new searches which would have been unknown to individuals otherwise. This can be used for searching entities and artefacts. It is widely and commonly used by people who are associated with searching water underground. As you know water is an important element of survival for life on earth, therefore the process of dowsing is mainly used for locating underground water sources. But very few people know that this process can also be used for locating things underground like archaeological remains, oils, tunnels, cavities, mineral ore veins etc.</p>                                                                                                                                            
-                                    
-                                    <h5 class="font-weight-bold">There are several uses of the process of dowsing and some of them are discussed below</h5>
-                                    <p class="card-text">
-                                        <b>Archaeological Searches</b>
-                                        <br />
-                                        Dowsers can detect even the minute changes in the properties of the formation of the soil present below the surface of the earth as well as find the hidden edifices of previous building that were built several decades ago.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Water</b>
-                                        <br />
-                                        This art is mainly used for a practical and important purpose, i.e. for the search of water. A good dowser can not only able to predict the water position beneath the ground easily, but also have the ability to indicate it’s volume, depth, pressure and portability. It also helps in determining the type of geological strata that would need to be built in order to reach that specific source. Most of the dowsers have the basic knowledge of the availability of the water underground. Some of them can even locate the water that is found in the underground aquifers and streams.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Agriculture and soil testing</b>
-                                        <br />
-                                        The soil need to be analyzed for its organic contents, acidity, nutrient status and other purposes. In fact, animals and plants can also be checked out for indicating diseases (if any) as well as the seeds used for germination.
-                                    </p>
-                                    
-                                    <h5 class="font-weight-bold">Survey of lands/sites </h5>
-                                    <p class="card-text">
-                                        <b>Dowsing</b> is used in order to locate dangerous and hidden underground tunnels, mine shafts and all types of building services like gas, telephone line, electricity, water and building sites.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Prospecting oil and mineral</b>
-                                        <br />
-                                        The process of dowsing has been in use since several ages for locating mineral underground. Recently, this is widely used as a method of locating oil fields.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Geopathic stress and earth energies</b>
-                                        <br />
-                                        The study which involves the patterns of energy is associated with circles, standing stones and ancient sites that can be assisted greatly with the art of dowsing. Dowsing faculty can help in understanding how the energies able to interact with the modern edifices as well as the people who dwell there. Advices are also given by them on minimization of the malign effects.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Medicine and healing</b>
-                                        <br />
-                                        The art of dowsing is used widely in order to seek and detect the reasons of imbalance that lead to determining the remedies which are suitable as well as poor health. Allergies and intolerance of food is the other area where dowsing becomes useful.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Missing objects</b>
-                                        <br />
-                                        Although this is a problematic and difficult field for dowsers, but recently success has been tasted which can be demonstrated clearly.
-                                    </p>
-                                    <p class="card-text">
-                                        <b>Article by Dowsing Expert Sri Kamal.</b>
-                                    </p>
-                                    <img src="https://web.archive.org/web/20220119170219im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/more_about_dowsing_1.jpg?resize=700%2C400&ssl=1" class="img-fluid mx-auto d-block" />
-                                    <p class="card-text">
-                                        The act of dowsing dates back to the ancient times. It is a really very fine tool which helps you to amplify much intuitive information along with many other important things. It is the ability with which you can obtain information beyond the range of all your five senses. It is the common belief of most of the dowsers that they can gain information about the past and present from anywhere.
-                                        <br />
-                                        <br />
-                                        There are a few important factors that need to be considered while dowsing. They are <b>the tools, the method of programming the tool, getting the permission to dowse, asking the question as well as the response and information which comes as a result of dowsing.</b> The material with which the tool is made is considered to be immaterial. The tool makes a visible response when the dowser asks any question.
-                                        <br />
-                                        <br />
-                                        The tool is programmed in such a way that it gives out a response, either an yes or a no according to the answers of the conscious mind, subconscious mind as well as the dowsing tool. You can compare the movement of this tool to a pendulum where you may consider the clockwise rotation to be positive and the anti clockwise rotation to be negative.
-                                        <br />
-                                        <br />
-                                        This whole thing is a vicious circle. Whenever I ask any question to my conscious mind, it gets directed to the subconscious state of the mind and then it accesses information from the super conscious state of our mind which is finally transferred to us through the medium of subconscious mind. There are many things that are controlled by our subconscious mind like the action of our involuntary muscles. This, in turn, helps the dowsing instrument to move and it gives a visible “read out” for the information that I demand.
-                                        <br />
-                                        <br />
-                                        Everyone is attracted to learning about different energies in the earth, the human energy field as well as the fact how it affects the health of a person. Dowsing is the perfect tool with which you can locate and work with these energies.
-                                    </p>
+    <!-- Navbar End -->
 
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-dowsing py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Dowsing</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Dowsing</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xs-12 mb-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link bg-primary mb-2 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Dowsing</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Human Aura</button>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xs-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Dowsing</h4>
+                                        <img src="https://web.archive.org/web/20220119170217im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/dowsing.jpg?resize=413%2C291&ssl=1" class="img-fluid mx-auto d-block" />
+                                        <p class="card-text">Dowsing is an art that involves the use of instrument and tools in order to make new searches which would have been unknown to individuals otherwise. This can be used for searching entities and artefacts. It is widely and commonly used by people who are associated with searching water underground. As you know water is an important element of survival for life on earth, therefore the process of dowsing is mainly used for locating underground water sources. But very few people know that this process can also be used for locating things underground like archaeological remains, oils, tunnels, cavities, mineral ore veins etc.</p>                                                                                                                                            
+                                        
+                                        <h5 class="font-weight-bold">There are several uses of the process of dowsing and some of them are discussed below</h5>
+                                        <p class="card-text">
+                                            <b>Archaeological Searches</b>
+                                            <br />
+                                            Dowsers can detect even the minute changes in the properties of the formation of the soil present below the surface of the earth as well as find the hidden edifices of previous building that were built several decades ago.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Water</b>
+                                            <br />
+                                            This art is mainly used for a practical and important purpose, i.e. for the search of water. A good dowser can not only able to predict the water position beneath the ground easily, but also have the ability to indicate it’s volume, depth, pressure and portability. It also helps in determining the type of geological strata that would need to be built in order to reach that specific source. Most of the dowsers have the basic knowledge of the availability of the water underground. Some of them can even locate the water that is found in the underground aquifers and streams.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Agriculture and soil testing</b>
+                                            <br />
+                                            The soil need to be analyzed for its organic contents, acidity, nutrient status and other purposes. In fact, animals and plants can also be checked out for indicating diseases (if any) as well as the seeds used for germination.
+                                        </p>
+                                        
+                                        <h5 class="font-weight-bold">Survey of lands/sites </h5>
+                                        <p class="card-text">
+                                            <b>Dowsing</b> is used in order to locate dangerous and hidden underground tunnels, mine shafts and all types of building services like gas, telephone line, electricity, water and building sites.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Prospecting oil and mineral</b>
+                                            <br />
+                                            The process of dowsing has been in use since several ages for locating mineral underground. Recently, this is widely used as a method of locating oil fields.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Geopathic stress and earth energies</b>
+                                            <br />
+                                            The study which involves the patterns of energy is associated with circles, standing stones and ancient sites that can be assisted greatly with the art of dowsing. Dowsing faculty can help in understanding how the energies able to interact with the modern edifices as well as the people who dwell there. Advices are also given by them on minimization of the malign effects.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Medicine and healing</b>
+                                            <br />
+                                            The art of dowsing is used widely in order to seek and detect the reasons of imbalance that lead to determining the remedies which are suitable as well as poor health. Allergies and intolerance of food is the other area where dowsing becomes useful.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Missing objects</b>
+                                            <br />
+                                            Although this is a problematic and difficult field for dowsers, but recently success has been tasted which can be demonstrated clearly.
+                                        </p>
+                                        <p class="card-text">
+                                            <b>Article by Dowsing Expert Sri Kamal.</b>
+                                        </p>
+                                        <img src="https://web.archive.org/web/20220119170219im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/more_about_dowsing_1.jpg?resize=700%2C400&ssl=1" class="img-fluid mx-auto d-block" />
+                                        <p class="card-text">
+                                            The act of dowsing dates back to the ancient times. It is a really very fine tool which helps you to amplify much intuitive information along with many other important things. It is the ability with which you can obtain information beyond the range of all your five senses. It is the common belief of most of the dowsers that they can gain information about the past and present from anywhere.
+                                            <br />
+                                            <br />
+                                            There are a few important factors that need to be considered while dowsing. They are <b>the tools, the method of programming the tool, getting the permission to dowse, asking the question as well as the response and information which comes as a result of dowsing.</b> The material with which the tool is made is considered to be immaterial. The tool makes a visible response when the dowser asks any question.
+                                            <br />
+                                            <br />
+                                            The tool is programmed in such a way that it gives out a response, either an yes or a no according to the answers of the conscious mind, subconscious mind as well as the dowsing tool. You can compare the movement of this tool to a pendulum where you may consider the clockwise rotation to be positive and the anti clockwise rotation to be negative.
+                                            <br />
+                                            <br />
+                                            This whole thing is a vicious circle. Whenever I ask any question to my conscious mind, it gets directed to the subconscious state of the mind and then it accesses information from the super conscious state of our mind which is finally transferred to us through the medium of subconscious mind. There are many things that are controlled by our subconscious mind like the action of our involuntary muscles. This, in turn, helps the dowsing instrument to move and it gives a visible “read out” for the information that I demand.
+                                            <br />
+                                            <br />
+                                            Everyone is attracted to learning about different energies in the earth, the human energy field as well as the fact how it affects the health of a person. Dowsing is the perfect tool with which you can locate and work with these energies.
+                                        </p>
+    
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Human Aura</h4>
-                                    
-                                    <img src="https://web.archive.org/web/20220119170220if_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/human_aura.png?resize=489%2C559&ssl=1" class="img-fluid mx-auto d-block mb-2" />
-                                    <p class="card-text">
-                                        Non beneficial energies cause the depletion of human energy field or the aura and reduces it within a few inches in the physical body. The auraic field of a healthy person ranges up to several inches in the body. Many research has been conducted by Kamal, in India regarding the noxious zones and the correlation between them. The zones can be cleared with various remedies and they do not affect plants, animals, people or any appliances now.
-                                    </p>
-                                    <p class="card-text">
-                                        Whenever I go to someone’s house for noxious zones, I always ask for a hand drawn map so that I can dowse the information beforehand. I can feel the presence of other energies present in the site. There may also be negative influences that I can feel. Negative influences refer to those thought forms or energies which have elemental intelligence and they affect the people negatively and hamper their ability to become express their own self.
-                                    </p>                                    
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Human Aura</h4>
+                                        
+                                        <img src="https://web.archive.org/web/20220119170220if_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/human_aura.png?resize=489%2C559&ssl=1" class="img-fluid mx-auto d-block mb-2" />
+                                        <p class="card-text">
+                                            Non beneficial energies cause the depletion of human energy field or the aura and reduces it within a few inches in the physical body. The auraic field of a healthy person ranges up to several inches in the body. Many research has been conducted by Kamal, in India regarding the noxious zones and the correlation between them. The zones can be cleared with various remedies and they do not affect plants, animals, people or any appliances now.
+                                        </p>
+                                        <p class="card-text">
+                                            Whenever I go to someone’s house for noxious zones, I always ask for a hand drawn map so that I can dowse the information beforehand. I can feel the presence of other energies present in the site. There may also be negative influences that I can feel. Negative influences refer to those thought forms or energies which have elemental intelligence and they affect the people negatively and hamper their ability to become express their own self.
+                                        </p>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -184,30 +229,92 @@
             </div>
         </div>
     </div>
+    <!-- Service End -->    
+        
 
-    <!-- Footer -->
-    <footer class="pt-2 pb-1 bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h6 class="mb-4 text-white text-center">All Rights Reserved | Copyright 2022 © Vaastu Vigyan</h6>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>HSR Extension, Reliable Tranquil Layout, Bengaluru, Karnataka 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9591405555</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>consult@vaastuvigyan.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="vaastutips.html">Vaastu Tips</a>
+                    <a class="btn btn-link" href="vaastugyan.html">Vaastu Gyan</a>
+                    <a class="btn btn-link" href="benefits.html">Benefits</a>
+                    <a class="btn btn-link" href="consultation.html">Consultation</a>
+                </div> -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Sri Kamal</h4>
+                    <p>Sri Kamal is a Vaastu Expert, Reiki Grand Master, Astro Numerologist and Philanthropist is renewed Occultist and a person of Diversified Interests.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="index.html">Blog</a>
+                    <a class="btn btn-link" href="index.html">Testimonials</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
-    </footer>
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container"> </div>
-    </footer>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/style.min.js"></script>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Vaastu Vigyan</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">larks.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

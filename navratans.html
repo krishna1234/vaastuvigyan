@@ -3,324 +3,369 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Vaastu Vigyan</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <title>Woody - Carpenter Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- top bar -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7"><span class="icon-phone"></span>&nbsp;Questions? &nbsp;Call us: <strong>+91
-                        9591405555</strong> <i class="fas fa-envelope"></i> Mail:
-                    <strong>consult@vaastuvigyan.com</strong>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-envelope text-primary me-2"></small>
+                    <small>consult@vaastuvigyan.com</small>
                 </div>
-                <div class="col-md-5 float-right">
-                    <a href="about.html" class="text-white">About us</a> |
-                    <a href="testimonial.html" class="text-white">Testimonials</a> |
-                    <a href="index.html" class="text-white">Blog</a> |
-                    <a href="contact.html" class="text-white">Contact us</a>
-                    <span class="d-inline-block pl-5"><a href="https://www.facebook.com/raajVastuVigyan/?fref=ts"
-                            target="_blank"><i class="fab fa-facebook"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://twitter.com/vvigyan" target="_blank"><i
-                                class="fab fa-twitter"></i></a></span>
-                    <span class="d-inline-block pl-2"><a href="https://www.youtube.com/watch?v=90AjIWUSId4"
-                            target="_blank"><i class="fab fa-youtube"></i></a></span>
+                <!-- <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div> -->
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 9591405555</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.facebook.com/raajVastuVigyan/?fref=ts"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/vvigyan"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1"
+                        href="https://www.youtube.com/watch?v=90AjIWUSId4"><i class="fab fa-youtube"></i></a>
+                    <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="images/logo.jpeg" class="img-fluid"
-                    style="height: 60px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastutips.html">Vaastu Tips</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="vaastugyan.html">Vaastu Gyan</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="benefits.html">Benefits</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="consultation.html">Consultation</a> </li>
-                    <li class="nav-item"> <a class="nav-link active" href="navratans.html">Nav Ratans</a>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="geopathicstress.html">Geopathic
-                            Strss</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="dowsing.html">Dowsing</a> </li>
-                </ul>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.jpeg" class="img-fluid" style="height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="vaastutips.html" class="nav-item nav-link">Vaastu Tips</a>
+                <a href="vaastugyan.html" class="nav-item nav-link">Vaastu Gyan</a>
+                <a href="benefits.html" class="nav-item nav-link">Benefits</a>
+                <a href="consultation.html" class="nav-item nav-link">Consultation</a>
+                <a href="navratans.html" class="nav-item nav-link active">Nav Ratans</a>
+                <a href="geopathicstress.html" class="nav-item nav-link">Geopathic Stress</a>
+                <a href="dowsing.html" class="nav-item nav-link">Dowsing</a>
             </div>
+            <!-- <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
-    <!-- Header -->
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-3 col-xs-12 mb-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                        aria-selected="true">Blue Sapphire (Neelam)</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">Cats-Eye (Ketu)</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                        aria-selected="false">Diamonds</button>
-                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                        aria-selected="false">Emerald (Panna)</button>
-                    <button class="nav-link" id="v-pills-settings-tab1" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
-                        aria-selected="false">Gomedh</button>
-                    <button class="nav-link" id="v-pills-settings-tab2" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
-                    aria-selected="false">Red Coral</button>
-                    <button class="nav-link" id="v-pills-settings-tab3" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-settings3" type="button" role="tab" aria-controls="v-pills-settings3"
-                    aria-selected="false">Ruby (Manik)</button>
-                    <button class="nav-link" id="v-pills-settings-tab4" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-settings4" type="button" role="tab" aria-controls="v-pills-settings4"
-                    aria-selected="false">Yellow Sapphire (Pokhraj)</button>
-                    <button class="nav-link" id="v-pills-settings-tab5" data-bs-toggle="pill"
-                    data-bs-target="#v-pills-settings5" type="button" role="tab" aria-controls="v-pills-settings5"
-                    aria-selected="false">Pearl</button>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-navratans py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Nav Ratans</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Nav Ratans</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xs-12 mb-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link bg-primary mb-2 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Blue Sapphire (Neelam)</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Cats-Eye (Ketu)</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">Diamonds</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Emerald (Panna)</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab1" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
+                            aria-selected="false">Gomedh</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab2" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings2" type="button" role="tab" aria-controls="v-pills-settings2"
+                        aria-selected="false">Red Coral</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab3" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings3" type="button" role="tab" aria-controls="v-pills-settings3"
+                        aria-selected="false">Ruby (Manik)</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab4" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings4" type="button" role="tab" aria-controls="v-pills-settings4"
+                        aria-selected="false">Yellow Sapphire (Pokhraj)</button>
+                        <button class="nav-link bg-primary mb-2" id="v-pills-settings-tab5" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings5" type="button" role="tab" aria-controls="v-pills-settings5"
+                        aria-selected="false">Pearl</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-9 col-xs-12">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Blue Sapphire (Neelam)</h4>
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220201230409im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/blue_sapphire.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
-                                        The combination of oxygen and aluminum has finally created the precious and the innately significant blue sapphire or Neelam. The slight addition of cobalt in the previous mixture has added to the blue color of this uniquely defined gem. This stone is originally found in the lands of Thailand and also Australia. However, if you require the best quality blue sapphire then you can always procure it from Sri Lanka and the northern areas of Kashmir. It is believed that the Saturn or the Shani planet is ruling the blue sapphire.
-                                        <br />
-                                        <br />
-                                        The Saturn is one of the greatest and the strongest planets which again makes its effects all the more strong and well defined. This gem is available in myriad shapes, styles and colors from which you can always make your pick.
-                                    </p>
-                                    <p class="card-text">
-                                        They also have an extremely transparent structure which makes it extremely slippery to touch and feel. Usually, it is recommended by gem experts to adorn those neelam’s which are shaped like a peacock. If you are born on the, 17th and 26th of any specific month then these stones will turn out to be very lucky for you. Moreover, the best part is that, this stone simply gives you instant result just after some days of adorning it.
-                                    </p>
-                                    <p class="card-text">
-                                        If you are working as a lawyer, magistrate or even a businessman or trader this stone will turn out to be extremely viable for you. This stone is also very viable if you trade mustard oil or have deals with regard to it. Again, if you are suffering from frequent ailments with regard to your skin, lungs or if you are experiencing asthmatic issues then this stone will turn out to be extremely viable for you. In fact, you can actually enjoy a better and much more significant position in the society if you wear the best quality blue sapphire stone.
-                                    </p>
-                                    
+                <div class="col-lg-9 col-xs-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Blue Sapphire (Neelam)</h4>
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220201230409im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/blue_sapphire.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
+                                            The combination of oxygen and aluminum has finally created the precious and the innately significant blue sapphire or Neelam. The slight addition of cobalt in the previous mixture has added to the blue color of this uniquely defined gem. This stone is originally found in the lands of Thailand and also Australia. However, if you require the best quality blue sapphire then you can always procure it from Sri Lanka and the northern areas of Kashmir. It is believed that the Saturn or the Shani planet is ruling the blue sapphire.
+                                            <br />
+                                            <br />
+                                            The Saturn is one of the greatest and the strongest planets which again makes its effects all the more strong and well defined. This gem is available in myriad shapes, styles and colors from which you can always make your pick.
+                                        </p>
+                                        <p class="card-text">
+                                            They also have an extremely transparent structure which makes it extremely slippery to touch and feel. Usually, it is recommended by gem experts to adorn those neelam’s which are shaped like a peacock. If you are born on the, 17th and 26th of any specific month then these stones will turn out to be very lucky for you. Moreover, the best part is that, this stone simply gives you instant result just after some days of adorning it.
+                                        </p>
+                                        <p class="card-text">
+                                            If you are working as a lawyer, magistrate or even a businessman or trader this stone will turn out to be extremely viable for you. This stone is also very viable if you trade mustard oil or have deals with regard to it. Again, if you are suffering from frequent ailments with regard to your skin, lungs or if you are experiencing asthmatic issues then this stone will turn out to be extremely viable for you. In fact, you can actually enjoy a better and much more significant position in the society if you wear the best quality blue sapphire stone.
+                                        </p>
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Cats-Eye (Ketu)</h4>
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220201232028if_/https://i2.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/chrysoberyl-cats.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
-                                        Cats-Eye is one of the best and the most effective astrological stones among the navaratna. It is believed that this unique stone is the symbolism of Ketu. In fact, according to various astrological bigwigs, it is ketu which the cats-eye symbolizes. Lehsunia or Vaiduria is one of the popularly used common name of this gem which again is widely popular. The Lands of South India,
-                                        <br />
-                                        <br />
-                                        Ceylon, Brazil and also china has the best and the most lucrative quality cats-eye variants in town. Moreover, this stonje is also available in myriad shapes, structures and sizes. It is belived that this unique gem stone effectively evades all the evil effects of the Ketu planet which is persistent in your horoscope or birth chart.
-                                        <br />
-                                        <br />
-                                        The Ketu planet, also known as the second Mars might have evil effects on your horoscope. However, the cats-eye evades all the issues you experience in this regard. Popularly known as the “tail of the dragon” this stone is widely popular and innately purposeful for the individuals who have Pisces as their sun-sign. It is believed that the best, days, for wearing this uniquely defined stone is on the Wednesday, Thursday and also Friday. However, you have to ensure that you have adorned the stone in a proper and feasible manner.
-                                        <br />
-                                        <br />
-                                        It is always recommended to adorn this stone 2 hours after the sunset has taken place. Moreover, this stone is one of the most persistent effect givers thereby giving you the strongest and the most effective benefits accordingly. If you are associated with the career paths of gambling, dancing or even horse racing then this stone will offer you some of the best and the most viable effects in town. This stone is extremely viable for individuals who are involved in risky professions.
-                                    </p>                                                                        
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Cats-Eye (Ketu)</h4>
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220201232028if_/https://i2.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/chrysoberyl-cats.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
+                                            Cats-Eye is one of the best and the most effective astrological stones among the navaratna. It is believed that this unique stone is the symbolism of Ketu. In fact, according to various astrological bigwigs, it is ketu which the cats-eye symbolizes. Lehsunia or Vaiduria is one of the popularly used common name of this gem which again is widely popular. The Lands of South India,
+                                            <br />
+                                            <br />
+                                            Ceylon, Brazil and also china has the best and the most lucrative quality cats-eye variants in town. Moreover, this stonje is also available in myriad shapes, structures and sizes. It is belived that this unique gem stone effectively evades all the evil effects of the Ketu planet which is persistent in your horoscope or birth chart.
+                                            <br />
+                                            <br />
+                                            The Ketu planet, also known as the second Mars might have evil effects on your horoscope. However, the cats-eye evades all the issues you experience in this regard. Popularly known as the “tail of the dragon” this stone is widely popular and innately purposeful for the individuals who have Pisces as their sun-sign. It is believed that the best, days, for wearing this uniquely defined stone is on the Wednesday, Thursday and also Friday. However, you have to ensure that you have adorned the stone in a proper and feasible manner.
+                                            <br />
+                                            <br />
+                                            It is always recommended to adorn this stone 2 hours after the sunset has taken place. Moreover, this stone is one of the most persistent effect givers thereby giving you the strongest and the most effective benefits accordingly. If you are associated with the career paths of gambling, dancing or even horse racing then this stone will offer you some of the best and the most viable effects in town. This stone is extremely viable for individuals who are involved in risky professions.
+                                        </p>                                                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Learn The Multiple Effects And Significances Of Precious Diamonds
-                                    </h4>
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220201232452im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/diamond.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
-                                        Diamonds are considered as the hardest and naturally formed rock material on this earth which is normally renowned for beauty, durability and strength. These hard stones are generally formed deep inside the earth’s crust as a result of tremendous pressure and manageable temperatures. They are formed out of pure carbon beneath the continental crust of the earth.
-                                    <p class="card-text">
-                                        These mysterious and colored gems have great influencing and charming effects on human life. On basis of purity , hardness and recommendation as per Vedic astrology, they perform great deeds by reducing malefic effects of planets on human life, there by bringing harmony in the good and bad effects of the planets.
-                                        <br />
-                                        These stones are having great significance in different fields like human health, astrology, Ayurvedic, and others. This is considered as one of the most precious gems of the nine popular gems of the world. From the astrological aspect, these gems mainly represent the planet Venus and are usually worn by people for enjoying the positive effects of this planet.
-                                    </p>
-                                    <p class="card-text">
-                                        If you are facing any kinds of problems or issues as a result of the negative impacts of this planet on your life then you are highly recommended to wear this particular gem. These gems can also cure many severe human diseases like sexual diseases, private organ related problems, eye problems, diabetes, and others. They also enhance your body energy by effectively removing the lethargic feelings. This gem also brings to you auspicious time, opportunities and luck if you wear it in your hand.
-                                    </p>
-                                    <p class="card-text">
-                                        These gems mainly symbolize for prosperous life, fullness and happiness. They also maintain proper peace and relaxation to your body and mind. This beautiful hard rock stone also brings happiness to your marriage life and resolves all your marriage relate or late marriage problems. This precious gem is also used as a beautiful Ayurvedic therapy which cures all kinds of acute human diseases and boosts up your mental strength and body energy. This gem also resolves all sorts of birth related problems and brings peace and satisfaction. This kind of precious gem is also used as a beautiful piece of jewellery which has a great significance in ornamentation. The diamond rings can add a special charm to the engagement and wedding events.
-                                    </p>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Learn The Multiple Effects And Significances Of Precious Diamonds
+                                        </h4>
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220201232452im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/diamond.jpg?resize=416%2C288&ssl=1" class="img-fluid" style="float: right;" />
+                                            Diamonds are considered as the hardest and naturally formed rock material on this earth which is normally renowned for beauty, durability and strength. These hard stones are generally formed deep inside the earth’s crust as a result of tremendous pressure and manageable temperatures. They are formed out of pure carbon beneath the continental crust of the earth.
+                                        <p class="card-text">
+                                            These mysterious and colored gems have great influencing and charming effects on human life. On basis of purity , hardness and recommendation as per Vedic astrology, they perform great deeds by reducing malefic effects of planets on human life, there by bringing harmony in the good and bad effects of the planets.
+                                            <br />
+                                            These stones are having great significance in different fields like human health, astrology, Ayurvedic, and others. This is considered as one of the most precious gems of the nine popular gems of the world. From the astrological aspect, these gems mainly represent the planet Venus and are usually worn by people for enjoying the positive effects of this planet.
+                                        </p>
+                                        <p class="card-text">
+                                            If you are facing any kinds of problems or issues as a result of the negative impacts of this planet on your life then you are highly recommended to wear this particular gem. These gems can also cure many severe human diseases like sexual diseases, private organ related problems, eye problems, diabetes, and others. They also enhance your body energy by effectively removing the lethargic feelings. This gem also brings to you auspicious time, opportunities and luck if you wear it in your hand.
+                                        </p>
+                                        <p class="card-text">
+                                            These gems mainly symbolize for prosperous life, fullness and happiness. They also maintain proper peace and relaxation to your body and mind. This beautiful hard rock stone also brings happiness to your marriage life and resolves all your marriage relate or late marriage problems. This precious gem is also used as a beautiful Ayurvedic therapy which cures all kinds of acute human diseases and boosts up your mental strength and body energy. This gem also resolves all sorts of birth related problems and brings peace and satisfaction. This kind of precious gem is also used as a beautiful piece of jewellery which has a great significance in ornamentation. The diamond rings can add a special charm to the engagement and wedding events.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Emerald (Panna)
-                                    </h4>
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220202000422im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/panna.jpg?resize=300%2C300&ssl=1" class="img-fluid" style="float: right;" />
-                                        The emerald or the popular Indian variant Panna is one of the most Beatrice, beautiful and amazingly defined gemstones. You can find this gem stone in the regions of Russia, Columbia, Australia and also South Columbia. A combination of beryllium and the silicate of aluminum and also oxygen, the actual color of this extremely precious stone is dark green.
-                                        <br />
-                                        <br />
-                                        This gem stone is said to be highly popular for its everlasting effects on career, health and prosperity and so, they come in a pretty extravagant price tag. It is believed that the Emerald gemstone represents the Buddha or the Mercury planet which rules over Virgo and Gemini. So, if you belong to these zodiac signs then you can jolly well get hold of this stone and adorn it in the form of a ring or pendant. It is believed that only as a ring or pendant, you will be provided with the maximum benefits from this stone.
-                                        <br />
-                                        <br />
-                                        According to the scriptures of the Hindu Mythology, Emerald is the basic significance of Goddess Saraswati who is the goddess of education and intellect. Thus, if you wish to make a mark with a proper and steady career then it is absolutely essential for you to use and adorn this stone accordingly.
-                                        <br />
-                                        <br />
-                                        In fact, if you are politician, author, bureaucrat, entrepreneur, engineer, big officer or even a medical expert pr if you aspire to make a mark in these specified fields, then this stone will holistically shape your career thereby enabling you to enjoy and avail the best from the same in a jiffy. Moreover, it is also believed that you can be saved from black magic or the evil invasion of deadly spirits with the aid of this stone. Asthma, serious cough and cold and also stammering can be evaded by this innovative stone.
-                                    </p>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Emerald (Panna)
+                                        </h4>
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220202000422im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/panna.jpg?resize=300%2C300&ssl=1" class="img-fluid" style="float: right;" />
+                                            The emerald or the popular Indian variant Panna is one of the most Beatrice, beautiful and amazingly defined gemstones. You can find this gem stone in the regions of Russia, Columbia, Australia and also South Columbia. A combination of beryllium and the silicate of aluminum and also oxygen, the actual color of this extremely precious stone is dark green.
+                                            <br />
+                                            <br />
+                                            This gem stone is said to be highly popular for its everlasting effects on career, health and prosperity and so, they come in a pretty extravagant price tag. It is believed that the Emerald gemstone represents the Buddha or the Mercury planet which rules over Virgo and Gemini. So, if you belong to these zodiac signs then you can jolly well get hold of this stone and adorn it in the form of a ring or pendant. It is believed that only as a ring or pendant, you will be provided with the maximum benefits from this stone.
+                                            <br />
+                                            <br />
+                                            According to the scriptures of the Hindu Mythology, Emerald is the basic significance of Goddess Saraswati who is the goddess of education and intellect. Thus, if you wish to make a mark with a proper and steady career then it is absolutely essential for you to use and adorn this stone accordingly.
+                                            <br />
+                                            <br />
+                                            In fact, if you are politician, author, bureaucrat, entrepreneur, engineer, big officer or even a medical expert pr if you aspire to make a mark in these specified fields, then this stone will holistically shape your career thereby enabling you to enjoy and avail the best from the same in a jiffy. Moreover, it is also believed that you can be saved from black magic or the evil invasion of deadly spirits with the aid of this stone. Asthma, serious cough and cold and also stammering can be evaded by this innovative stone.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab1">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Hessonite (Gomedh)
-                                    </h4>
-                                    
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220201230415im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/gomed.jpg?resize=421%2C285&ssl=1" class="img-fluid" style="float: right;" />
-                                        The Hessonite is one of the most vital gems among the navaratna which has a Sanskrit name called Gomedh. The Gomedh too like its contemporaries in the group of Navaratna turns out to be one of the most significant and special gems which endows an individual with a long, lasting and positive element in his life. This stone is widely found in Brazil, Sri Lanka and also Australia. In fact, these countries have the best and the highest quality variants of these gems. Thus, if you are an ardent enthusiast of gemology, then you can jolly well invest in this lucrative and imported product. It is strongly believed that only the natural, authentic and high quality hessonite’s are actually effectively.
-                                        <br />
-                                        <br />
-                                        It is believed that the Hessonite or the Gomedh stone should be adorned simply within one hour of the sunrise on a Saturday. This procedure should be incorporated in order to avail the maximum benefits from this stone. Moreover, you should also make sure that you have adorned the stone in the middle finger of your right hand in order to avail the maximum benefits. Again, if a person’s horoscope permits him, then he can always adorn this stone on the little finger of his hand. One should only wear the hessonite stone if the rahu in his horoscope is in a beneficial state. If your rahu is exalted in your horoscope or if it is located in a beneficial position, then this stone will effectively assist you in the long run, and will also offer you immediate benefits.
-                                        <br />
-                                        <br />                                        
-                                        It is further believed that Hessonite is one of the strongest mediums and strongest stones which ensures and balances the air pressure in your body. Thus, it would turn out to be all the more beneficial if you incorporate the hessonite in any silver based medium.
-                                    </p>
+                        <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab1">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Hessonite (Gomedh)
+                                        </h4>
+                                        
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220201230415im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/gomed.jpg?resize=421%2C285&ssl=1" class="img-fluid" style="float: right;" />
+                                            The Hessonite is one of the most vital gems among the navaratna which has a Sanskrit name called Gomedh. The Gomedh too like its contemporaries in the group of Navaratna turns out to be one of the most significant and special gems which endows an individual with a long, lasting and positive element in his life. This stone is widely found in Brazil, Sri Lanka and also Australia. In fact, these countries have the best and the highest quality variants of these gems. Thus, if you are an ardent enthusiast of gemology, then you can jolly well invest in this lucrative and imported product. It is strongly believed that only the natural, authentic and high quality hessonite’s are actually effectively.
+                                            <br />
+                                            <br />
+                                            It is believed that the Hessonite or the Gomedh stone should be adorned simply within one hour of the sunrise on a Saturday. This procedure should be incorporated in order to avail the maximum benefits from this stone. Moreover, you should also make sure that you have adorned the stone in the middle finger of your right hand in order to avail the maximum benefits. Again, if a person’s horoscope permits him, then he can always adorn this stone on the little finger of his hand. One should only wear the hessonite stone if the rahu in his horoscope is in a beneficial state. If your rahu is exalted in your horoscope or if it is located in a beneficial position, then this stone will effectively assist you in the long run, and will also offer you immediate benefits.
+                                            <br />
+                                            <br />                                        
+                                            It is further believed that Hessonite is one of the strongest mediums and strongest stones which ensures and balances the air pressure in your body. Thus, it would turn out to be all the more beneficial if you incorporate the hessonite in any silver based medium.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab2">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Red coral
-                                    </h4>
-                                    
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20210513094245im_/https://i2.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/red_coral-1.jpg?resize=270%2C270&ssl=1" class="img-fluid" style="float: right;" />
-                                        The Red Coral too is one of the ruling and the most significant gems in Gemology which has garnered a significant popularity due to the plethora of advantages it provides an individual with. It is believed that this stone is absolutely perfect for the individuals who have mangal or the mars as their ruling planet. The color of the planet mars determines the color of this stone. And, it is due to the red colored appearance of the Mars, that this planet is named as the Red Planet. In fact, the planet mars rules over this stone thereby adding and effecting to its color, structure and shape.
-                                        <br />
-                                        <br />
-                                        It is believed that the Red Stone is absolutely purposeful for the individuals who have to experience serious combats with their enemies. In fact, this stone effectively enables you to evade all the evil effects that might be caused by your impending enemies. In fact, this stone is widely popular due to the fact that it effectively helps an individual to defeat his enemy in a jiffy. Apart from this, if you are suffering from the invasion of evil spirits or if you feel that you are haunted by evil spirits then this stone is completely perfect for you.
-                                        <br />
-                                        <br />                                        
-                                        Again, it might also happen that you are experiencing serious depression. Well, under such circumstances, this stone will play a vital role in helping you evade that depression in a proper and feasible manner. Moreover, this also plays a vital role in evading the persistence of widowhood in women. It helps women fight against widowhood due to its persistent effects and strong power. You can also use this stone if you are planning to succeed through meditation. This gem fills every individual’s life with complete happiness and helps each and everyone to evade violence.
-                                    </p>
+    
+                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab2">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Red coral
+                                        </h4>
+                                        
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20210513094245im_/https://i2.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/red_coral-1.jpg?resize=270%2C270&ssl=1" class="img-fluid" style="float: right;" />
+                                            The Red Coral too is one of the ruling and the most significant gems in Gemology which has garnered a significant popularity due to the plethora of advantages it provides an individual with. It is believed that this stone is absolutely perfect for the individuals who have mangal or the mars as their ruling planet. The color of the planet mars determines the color of this stone. And, it is due to the red colored appearance of the Mars, that this planet is named as the Red Planet. In fact, the planet mars rules over this stone thereby adding and effecting to its color, structure and shape.
+                                            <br />
+                                            <br />
+                                            It is believed that the Red Stone is absolutely purposeful for the individuals who have to experience serious combats with their enemies. In fact, this stone effectively enables you to evade all the evil effects that might be caused by your impending enemies. In fact, this stone is widely popular due to the fact that it effectively helps an individual to defeat his enemy in a jiffy. Apart from this, if you are suffering from the invasion of evil spirits or if you feel that you are haunted by evil spirits then this stone is completely perfect for you.
+                                            <br />
+                                            <br />                                        
+                                            Again, it might also happen that you are experiencing serious depression. Well, under such circumstances, this stone will play a vital role in helping you evade that depression in a proper and feasible manner. Moreover, this also plays a vital role in evading the persistence of widowhood in women. It helps women fight against widowhood due to its persistent effects and strong power. You can also use this stone if you are planning to succeed through meditation. This gem fills every individual’s life with complete happiness and helps each and everyone to evade violence.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab3">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Ruby (Manik)
-                                    </h4>
-                                    
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20210513094245im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/ruby.jpg?resize=293%2C293&ssl=1" class="img-fluid" style="float: right;" />
-                                        Ruby is one of the most essential and significant gems which is ruled by the planet sun. The stone is read in color and it effectively symbolizes the fiery and fierce elements which is again, similar to the sun.
-                                        <br />
-                                        <br />
-                                        Ruby deals with vastness and it is believed that just as the sun is the largest planet of the solar system, the ruby too is one of the largest and the vastest gems among the navaratna. The name ruby has been derived from the Latin word ‘ruber and since a very long time, this tone has turned out to be highly popular due to its fierceness and vastness of structure.
-                                        <br />
-                                        <br />                                        
-                                        This Red stone is highly purposeful for individuals who are born on the 1st, 10th, 19th and 28th day of any specific month. Besides this, if it so turns out that your birthday falls between 17thAugust and 16th September or if falls in January or even July then ruby is the perfect stone for you. Ruby (Manik) represents the sun or surya.
-                                        <br />
-                                        <br />
-                                        Again, if it turns out that the position of Sun is weak in your horoscope or if you are facing serious health issues with regard to hypertension, lung ailments, cholera, jaundice or even piles or diabetes then you should always wear this specific red stone. Apart from this, it is also observed that various career paths are enriched by the dominating role of the ruby stone. If you are a politician, bureaucrat, engineer, acting personality, jeweler or aspire to succeed in these career paths, then ruby will turn out to be an extremely vital and viable stone for you. Moreover, apart from this, if you deal with cotton, flowers or even clothes then you are sure to succeed from this gemstone. All in all you can achieve wealth, happiness, comfort, luxury living, popularity, and prosperity by adorning the best ruby stones.
-                                    </p>
+    
+                        <div class="tab-pane fade" id="v-pills-settings3" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab3">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Ruby (Manik)
+                                        </h4>
+                                        
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20210513094245im_/https://i0.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/ruby.jpg?resize=293%2C293&ssl=1" class="img-fluid" style="float: right;" />
+                                            Ruby is one of the most essential and significant gems which is ruled by the planet sun. The stone is read in color and it effectively symbolizes the fiery and fierce elements which is again, similar to the sun.
+                                            <br />
+                                            <br />
+                                            Ruby deals with vastness and it is believed that just as the sun is the largest planet of the solar system, the ruby too is one of the largest and the vastest gems among the navaratna. The name ruby has been derived from the Latin word ‘ruber and since a very long time, this tone has turned out to be highly popular due to its fierceness and vastness of structure.
+                                            <br />
+                                            <br />                                        
+                                            This Red stone is highly purposeful for individuals who are born on the 1st, 10th, 19th and 28th day of any specific month. Besides this, if it so turns out that your birthday falls between 17thAugust and 16th September or if falls in January or even July then ruby is the perfect stone for you. Ruby (Manik) represents the sun or surya.
+                                            <br />
+                                            <br />
+                                            Again, if it turns out that the position of Sun is weak in your horoscope or if you are facing serious health issues with regard to hypertension, lung ailments, cholera, jaundice or even piles or diabetes then you should always wear this specific red stone. Apart from this, it is also observed that various career paths are enriched by the dominating role of the ruby stone. If you are a politician, bureaucrat, engineer, acting personality, jeweler or aspire to succeed in these career paths, then ruby will turn out to be an extremely vital and viable stone for you. Moreover, apart from this, if you deal with cotton, flowers or even clothes then you are sure to succeed from this gemstone. All in all you can achieve wealth, happiness, comfort, luxury living, popularity, and prosperity by adorning the best ruby stones.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab4">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Yellow Sapphire (Pokhraj)
-                                    </h4>
-                                    
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20210513094245im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/yellow_saphhire.jpg?resize=248%2C248&ssl=1" class="img-fluid" style="float: right;" />
-                                        Among the varied and vast genres of gemstones, yellow Sapphire or the pUkhraj is one of the safest and the best stones. Apart from the term ‘Pukhraj’ this stone is also popularly known as topaz and citrine. Vedic astrology has an extremely significant and special space in the Vedas and since then, it is being recommended by gem experts and priests due to its capacity of neutralization.
-                                        <br />
-                                        <br />
-                                        The Yellow Sapphire stone or the Pukhraj is ruled over by the famous planet of Jupiter which again is the largest and also the most, heavy planet in our Solar System. Found in Sri Lanka, Russia and also the Himalayas, this stone is widely available in various popular color variants such as yellow, dark yellow, white, and even the lighter variant of Orange. It is believed that the Pukhraj should always be adorned simply by one hour off sunrise and, it should be adorned in the left hand’s index finger for best effects. Follow the mentioned time of adorning this stone in order to avail the most prolific benefits from the same. In fact, if you really wish to avail a hint of neutral element in your life then this stone is an absolute necessity.
-                                        <br />
-                                        <br />                                        
-                                        If you wish to enjoy the comforts, luxuries and the prosperity from your life, then it is absolutely essential for you to adorn the Yellow Sapphire. Moreover, this stone is all the more viable for you if you turn out to be an author, entrepreneur, traders or lawyer. I(n fact, this stone will effectively build and enrich the intellectualism, religious idea and charitable outlook of your entire life. Apart from this, it also comes with a series of healing powers which are highly lucrative. If you are having disputes with family members (especially your spouse) then this tone is an absolute necessity.                                        
-                                    </p>
+    
+                        <div class="tab-pane fade" id="v-pills-settings4" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab4">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Yellow Sapphire (Pokhraj)
+                                        </h4>
+                                        
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20210513094245im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/yellow_saphhire.jpg?resize=248%2C248&ssl=1" class="img-fluid" style="float: right;" />
+                                            Among the varied and vast genres of gemstones, yellow Sapphire or the pUkhraj is one of the safest and the best stones. Apart from the term ‘Pukhraj’ this stone is also popularly known as topaz and citrine. Vedic astrology has an extremely significant and special space in the Vedas and since then, it is being recommended by gem experts and priests due to its capacity of neutralization.
+                                            <br />
+                                            <br />
+                                            The Yellow Sapphire stone or the Pukhraj is ruled over by the famous planet of Jupiter which again is the largest and also the most, heavy planet in our Solar System. Found in Sri Lanka, Russia and also the Himalayas, this stone is widely available in various popular color variants such as yellow, dark yellow, white, and even the lighter variant of Orange. It is believed that the Pukhraj should always be adorned simply by one hour off sunrise and, it should be adorned in the left hand’s index finger for best effects. Follow the mentioned time of adorning this stone in order to avail the most prolific benefits from the same. In fact, if you really wish to avail a hint of neutral element in your life then this stone is an absolute necessity.
+                                            <br />
+                                            <br />                                        
+                                            If you wish to enjoy the comforts, luxuries and the prosperity from your life, then it is absolutely essential for you to adorn the Yellow Sapphire. Moreover, this stone is all the more viable for you if you turn out to be an author, entrepreneur, traders or lawyer. I(n fact, this stone will effectively build and enrich the intellectualism, religious idea and charitable outlook of your entire life. Apart from this, it also comes with a series of healing powers which are highly lucrative. If you are having disputes with family members (especially your spouse) then this tone is an absolute necessity.                                        
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab5">
-
-                        <div class="card shadow-sm p-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 style="color: #0088cc" class="card-title">Experience The Utilities And Importance Of Pearls In Human Life
-                                    </h4>
-                                    
-                                    <p class="card-text">
-                                        <img src="https://web.archive.org/web/20220202044438im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/pearl1.jpg?resize=300%2C200&ssl=1" class="img-fluid" style="float: right;" />
-                                        Pearl is mainly considered as one of the most precious stones of navaratnas with some unique qualities and special characteristics. These unique qualities of pearl are quite useful for the improvement and development of human life. From the astrological aspect, pearl represents moon. These precious gems are mainly suggested by the astrologers for getting the positive effects of moon.
-                                        <br />
-                                        <br />
-                                        These beautiful gems are originally formed deep under the sea in a mollusk called oyster. But in accordance of the religious texts, some people belief the traditional truth that pearls are made up of elephant’s tusk or ivory, bamboo and snake gem. Pearl mainly symbolizes love and therefore it is worn for improving all kinds of love relationships and al the related issues of marriage life.
-                                        It brings absolute peace and prosperity to human life by resolving all the unwanted problems. These gems are quite soothing and have tranquil effects on human life. The most common color of pearl is white but it is also available in other different colors like pink, silver, yellow, blue, and black. Different colors are having different influences and impacts on the life of human beings. These gems are quite useful for those persons who are short tempered in nature and lose their temper very quickly in every sensitive issue.
-                                        <br />
-                                        <br />                                        
-                                        These gems provide politeness and calmness to those short tempered persons and make their personalities quite pleasing and attractive. These gems also improve your social status I the society and are also useful for those parents who are child less. This particular gem is also very helpful in curing many diseases like intestine diseases, ulcer and stomach related issues and it also controls different body functions like regulates temperature, blood pressure, heart beats and so on. It also cures other severe diseases like nerve problems, mental illness, personality disorder, heart problems and other related ones. They also provide proper protection against many evil spirits.
-                                    </p>
+    
+                        <div class="tab-pane fade" id="v-pills-settings5" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab5">
+    
+                            <div class="card shadow-sm p-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 style="color: #0088cc" class="card-title">Experience The Utilities And Importance Of Pearls In Human Life
+                                        </h4>
+                                        
+                                        <p class="card-text">
+                                            <img src="https://web.archive.org/web/20220202044438im_/https://i1.wp.com/www.vaastuvigyan.com/wp-content/uploads/2016/09/pearl1.jpg?resize=300%2C200&ssl=1" class="img-fluid" style="float: right;" />
+                                            Pearl is mainly considered as one of the most precious stones of navaratnas with some unique qualities and special characteristics. These unique qualities of pearl are quite useful for the improvement and development of human life. From the astrological aspect, pearl represents moon. These precious gems are mainly suggested by the astrologers for getting the positive effects of moon.
+                                            <br />
+                                            <br />
+                                            These beautiful gems are originally formed deep under the sea in a mollusk called oyster. But in accordance of the religious texts, some people belief the traditional truth that pearls are made up of elephant’s tusk or ivory, bamboo and snake gem. Pearl mainly symbolizes love and therefore it is worn for improving all kinds of love relationships and al the related issues of marriage life.
+                                            It brings absolute peace and prosperity to human life by resolving all the unwanted problems. These gems are quite soothing and have tranquil effects on human life. The most common color of pearl is white but it is also available in other different colors like pink, silver, yellow, blue, and black. Different colors are having different influences and impacts on the life of human beings. These gems are quite useful for those persons who are short tempered in nature and lose their temper very quickly in every sensitive issue.
+                                            <br />
+                                            <br />                                        
+                                            These gems provide politeness and calmness to those short tempered persons and make their personalities quite pleasing and attractive. These gems also improve your social status I the society and are also useful for those parents who are child less. This particular gem is also very helpful in curing many diseases like intestine diseases, ulcer and stomach related issues and it also controls different body functions like regulates temperature, blood pressure, heart beats and so on. It also cures other severe diseases like nerve problems, mental illness, personality disorder, heart problems and other related ones. They also provide proper protection against many evil spirits.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,30 +374,92 @@
             </div>
         </div>
     </div>
+    <!-- Service End -->    
+        
 
-    <!-- Footer -->
-    <footer class="pt-2 pb-1 bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h6 class="mb-4 text-white text-center">All Rights Reserved | Copyright 2022 © Vaastu Vigyan</h6>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>HSR Extension, Reliable Tranquil Layout, Bengaluru, Karnataka 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9591405555</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>consult@vaastuvigyan.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="vaastutips.html">Vaastu Tips</a>
+                    <a class="btn btn-link" href="vaastugyan.html">Vaastu Gyan</a>
+                    <a class="btn btn-link" href="benefits.html">Benefits</a>
+                    <a class="btn btn-link" href="consultation.html">Consultation</a>
+                </div> -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Sri Kamal</h4>
+                    <p>Sri Kamal is a Vaastu Expert, Reiki Grand Master, Astro Numerologist and Philanthropist is renewed Occultist and a person of Diversified Interests.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="index.html">Blog</a>
+                    <a class="btn btn-link" href="index.html">Testimonials</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
                 </div>
             </div>
-            <!--/.row-->
         </div>
-        <!--/.container-->
-    </footer>
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container"> </div>
-    </footer>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/style.min.js"></script>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Vaastu Vigyan</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">larks.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
